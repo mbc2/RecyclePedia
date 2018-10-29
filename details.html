@@ -4,31 +4,45 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-
-        .column {
-            float: left;
-            width: 30%;
-            padding: 5px;
-            border-style: solid;
-            border-width: 2px 1px 2px 1px;
-            margin-right: 10px;
-            overflow: auto;    
+    .container{
+        margin-right:5%;
+        margin-left:5%;
+        width: auto;
     }
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-            overflow: auto;
-        }
+    .column {
+        float: left;
+        width: 30%;
+        padding: 10px;
+        border-style: solid;
+        border-radius: 10px;
+        border-width: 2px 1px 2px 1px;
+        margin-right: 10px;
+        overflow: auto;    
+    }
+    .column2 {
+        float: left;
+        padding: 10px;
+        border-style: solid;
+        border-radius: 10px;
+        border-width: 2px 1px 2px 1px;
+        margin-right: 10px;
+        overflow: auto;    
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        overflow: auto;
+    }
     h1 {
         text-align: center;
     }
 			body {
-				background-color: #7FFF00;
+				background-color: #F0FFF0;
 			}
 			.navbar {
 				margin-bottom: 0;
-				background-color: #7FFF00;
+				background-color: #6B8E23;
 				z-index: 9999;
 				border: 0;
 				font-size: 25px !important;
@@ -38,55 +52,61 @@
 				font-family: Montserrat, sans-serif;
 			}
 			.navbar li a, .navbar .navbar-brand {
-							  color: #fff !important;
+				color: #fff !important;
 			}
 			.navbar-nav li a:hover, .navbar-nav li.active a {
-				color: #7FFF00 !important;
+				color: #6B8E23 !important;
 				background-color: #fff !important;
 			}
 			.navbar-default .navbar-toggle {
 				border-color: transparent;
 				color: #fff !important;
 			}
+            /*will stack sections when acreen size decreased*/
+            @media (max-width: 600px) {
+                .column {
+                    width: 100%;
+            }
+}
         </style>
     </head>
     <body>
 		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="importance.html">Why Recycle?</a></li>
-                    </ul>
-				</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="importance.html">Why Recycle?</a></li>
+                </ul>
 			</div>
 		</nav>
 			<br>
         <br> 
 
         <h1>Welcome to Zipcode</h1>
-        
+        <div class="container">
             <div class="row">
-                <div class="column" style="background-color:#CD5C5C;">
+                <div class="column" style="background-color:#6B8E23;">
                     <h2>Landfill</h2>
-                    <ul>
+                    <div class="column2" style="background-color:#F0FFF0;">
+                        <ul>
+                            <li>Insert items</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column" style="background-color:#6B8E23;">
+                    <h2>Recycle</h2>
+                   <ul>
                         <li>Insert items</li>
+                   </ul>
+                </div>
+                <div class="column" style="background-color:#6B8E23;">
+                    <h2>Center</h2>
+                    <ul>
+                            <li>Insert items</li>
                     </ul>
                 </div>
-            <div class="column" style="background-color:#008000;">
-                <h2>Recycle</h2>
-               <ul>
-                    <li>Insert items</li>
-               </ul>
-            </div>
-            <div class="column" style="background-color:#008080;">
-                <h2>Center</h2>
-                <ul>
-                        <li>Insert items</li>
-                </ul>
             </div>
         </div>
-    
     </body>
 </html>
