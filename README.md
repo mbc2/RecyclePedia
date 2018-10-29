@@ -8,7 +8,7 @@ get specific information on recycling for that location.
 
 | Feature | Priority |
 | --- | --- |
-| Filter recycling codes based on state, zipcode | 0 |
+| Filter recycling codes based on zipcode | 0 |
 | Provide graphics slides to demonstrate HOW to recycle individual items properly (breaking down boxes, cleaning bottles, discarding bottle caps, etc) | 0 |
 | Find recycling centers around you using gps | 0 |
 | Navigate state websites to find recycling information | 0 |
@@ -21,5 +21,5 @@ get specific information on recycling for that location.
 
 # Definition of "Done"
 
-* Have at least 5 states whose recycling codes are listed and functional on website
+* Have at least 5 zipcodes whose recycling policies are listed and functional on website
 * Others...?
