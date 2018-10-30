@@ -90,7 +90,25 @@ VALUES
 	('402','Aluminum Beverage Cans','Rinse. Labels can be left on.'),
 	('403','Cartons','Rinse. Remove and dispose of caps and straws in the trash.'),
 	('404','Aerosol Cans','Remove lids and tips.'),
-	('405','Paperboard','Unfold.');
+	('405','Paperboard','Unfold.'),
+	('406','Cardboard','Break down into 3-by-3 sections '),
+	('407','Batteries','Recycling Centers'),
+	('408','Plastic Bags','Recycling Centers'),
+	('409','Aluminum pie plates and food containers','Recycling Centers'),
+	('411','Aluminum cat food cans','Recycling Centers'),
+	('412','Plastic tubs such as butter and yogurt containers, storage containers','Recycling Centers'),
+	('413','Berry containers (clam shells)','Recycling Centers'),
+	('414','Any plastic that is not in the shape of a bottle/jug','Recycling Centers'),
+	('415','Christmas lights','Recycling Centers'),
+	('416','Light bulbs','Recycling Centers'),
+	('417','Yard waste or food','Recycling Centers'),
+	('418','Electronics','Recycling Centers.'),
+	('419','Polystyrene foam','Recycling Centers'),
+	('420','Hazardous waste','Recycling Centers'),
+	('421','Window glass, mirrors, drinking glasses','Recycling Centers'),
+	('422','Bound books','Recycling Centers'),
+	('423','Picnic ware- plastic cups and silverware, plates, napkins, etc','Recycling Centers');
+
 
 /*!40000 ALTER TABLE `Materials` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -141,6 +159,7 @@ LOCK TABLES `Recyclables` WRITE;
 INSERT INTO `Recyclables` (`recycle_id`, `R1_id`, `R2_id`, `R3_id`, `R4_id`)
 VALUES
 	('100',400,401,402,403);
+
 
 /*!40000 ALTER TABLE `Recyclables` ENABLE KEYS */;
 UNLOCK TABLES;
