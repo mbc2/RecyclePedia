@@ -149,6 +149,7 @@ UNLOCK TABLES;
 # Dump of table Waste_Center
 # ------------------------------------------------------------
 
+
 DROP TABLE IF EXISTS `Waste_Center`;
 
 CREATE TABLE `Waste_Center` (
