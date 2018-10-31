@@ -188,12 +188,10 @@ VALUES
 	('422','Bound books','Recycling Centers'),
 	('423','Picnic ware- plastic cups and silverware, plates, napkins, etc','Recycling Centers');
 
-
 /*!40000 ALTER TABLE `Materials` ENABLE KEYS */;
 UNLOCK TABLES;
 
 #Counts how many materials are accepted in our database
-
 SELECT COUNT(*) AS "How many materials" FROM Materials;
 
 # Dump of table Policy
