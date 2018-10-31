@@ -33,13 +33,91 @@ CREATE TABLE `Area` (
 
 LOCK TABLES `Area` WRITE;
 /*!40000 ALTER TABLE `Area` DISABLE KEYS */;
+#This is the area table that organizes which zipcode is associated with which policy. 
+#as of right now, we only have one policy so all of these zipcodes are associated with Cincinnati
+
 
 INSERT INTO `Area` (`zipcode`, `policy`)
 VALUES
-	(45203,1);
+	(45201,1),
+  (45202,1),
+  (45203,1),
+  (45204,1),
+  (45205,1),
+  (45206,1),
+  (45207,1),
+  (45208,1),
+  (45209,1),
+  (45211,1),
+  (45212,1),
+  (45213,1),
+  (45214,1),
+  (45215,1),
+  (45216,1),
+  (45217,1),
+  (45218,1),
+  (45219,1),
+  (45220,1),
+  (45221,1),
+  (45222,1),
+  (45223,1),
+  (45224,1),
+  (45225,1),
+  (45226,1),
+  (45227,1),
+  (45229,1) 
+  (45230,1),
+  (45231,1),
+  (45232,1),
+  (45233,1),
+  (45234,1),
+  (45235,1),
+  (45236,1),
+  (45237,1),
+  (45238,1),
+  (45239,1),
+  (45240,1),
+  (45241,1),
+  (45242,1),
+  (45243,1),
+  (45244,1),
+  (45245,1),
+  (45246,1),
+  (45247,1),
+  (45248,1),
+  (45249,1),
+  (45250,1),
+  (45251,1),
+  (45252,1),
+ (45253,1),
+ (45254,1),
+ (45255,1),
+ (45258,1),
+ (45262,1),
+ (45263,1),
+ (45264,1),
+ (45267,1),
+ (45268,1),
+ (45269,1),
+ (45270,1),
+ (45271,1),
+ (45273,1),
+ (45274,1),
+ (45275,1),
+ (45277,1),
+ (45280,1),
+ (45296,1),
+ (45298,1),
+ (45299,1),
+ (45999,1);
+
+
 
 /*!40000 ALTER TABLE `Area` ENABLE KEYS */;
 UNLOCK TABLES;
+
+#this tests how many policies we support
+SELECT MAX(policy) AS "How many policies" FROM Area;
 
 
 # Dump of table Landfill
@@ -82,6 +160,7 @@ CREATE TABLE `Materials` (
 
 LOCK TABLES `Materials` WRITE;
 /*!40000 ALTER TABLE `Materials` DISABLE KEYS */;
+#These are all of the materials that are recyclable
 
 INSERT INTO `Materials` (`material_id`, `material_name`, `method_to_break_down`)
 VALUES
@@ -90,11 +169,32 @@ VALUES
 	('402','Aluminum Beverage Cans','Rinse. Labels can be left on.'),
 	('403','Cartons','Rinse. Remove and dispose of caps and straws in the trash.'),
 	('404','Aerosol Cans','Remove lids and tips.'),
-	('405','Paperboard','Unfold.');
+	('405','Paperboard','Unfold.'),
+	('406','Cardboard','Break down into 3-by-3 sections '),
+	('407','Batteries','Recycling Centers'),
+	('408','Plastic Bags','Recycling Centers'),
+	('409','Aluminum pie plates and food containers','Recycling Centers'),
+	('411','Aluminum cat food cans','Recycling Centers'),
+	('412','Plastic tubs such as butter and yogurt containers, storage containers','Recycling Centers'),
+	('413','Berry containers (clam shells)','Recycling Centers'),
+	('414','Any plastic that is not in the shape of a bottle/jug','Recycling Centers'),
+	('415','Christmas lights','Recycling Centers'),
+	('416','Light bulbs','Recycling Centers'),
+	('417','Yard waste or food','Recycling Centers'),
+	('418','Electronics','Recycling Centers.'),
+	('419','Polystyrene foam','Recycling Centers'),
+	('420','Hazardous waste','Recycling Centers'),
+	('421','Window glass, mirrors, drinking glasses','Recycling Centers'),
+	('422','Bound books','Recycling Centers'),
+	('423','Picnic ware- plastic cups and silverware, plates, napkins, etc','Recycling Centers');
+
 
 /*!40000 ALTER TABLE `Materials` ENABLE KEYS */;
 UNLOCK TABLES;
 
+#Counts how many materials are accepted in our database
+
+SELECT COUNT(*) AS "How many materials" FROM Materials;
 
 # Dump of table Policy
 # ------------------------------------------------------------
@@ -142,12 +242,14 @@ INSERT INTO `Recyclables` (`recycle_id`, `R1_id`, `R2_id`, `R3_id`, `R4_id`)
 VALUES
 	('100',400,401,402,403);
 
+
 /*!40000 ALTER TABLE `Recyclables` ENABLE KEYS */;
 UNLOCK TABLES;
 
 
 # Dump of table Waste_Center
 # ------------------------------------------------------------
+
 
 DROP TABLE IF EXISTS `Waste_Center`;
 
