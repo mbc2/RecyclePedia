@@ -33,6 +33,9 @@ CREATE TABLE `Area` (
 
 LOCK TABLES `Area` WRITE;
 /*!40000 ALTER TABLE `Area` DISABLE KEYS */;
+#This is the area table that organizes which zipcode is associated with which policy. 
+#as of right now, we only have one policy so all of these zipcodes are associated with Cincinnati
+
 
 INSERT INTO `Area` (`zipcode`, `policy`)
 VALUES
@@ -113,6 +116,9 @@ VALUES
 /*!40000 ALTER TABLE `Area` ENABLE KEYS */;
 UNLOCK TABLES;
 
+#this tests how many policies we support
+SELECT MAX(policy) AS "How many policies" FROM Area;
+
 
 # Dump of table Landfill
 # ------------------------------------------------------------
@@ -154,6 +160,7 @@ CREATE TABLE `Materials` (
 
 LOCK TABLES `Materials` WRITE;
 /*!40000 ALTER TABLE `Materials` DISABLE KEYS */;
+#These are all of the materials that are recyclable
 
 INSERT INTO `Materials` (`material_id`, `material_name`, `method_to_break_down`)
 VALUES
@@ -185,6 +192,9 @@ VALUES
 /*!40000 ALTER TABLE `Materials` ENABLE KEYS */;
 UNLOCK TABLES;
 
+#Counts how many materials are accepted in our database
+
+SELECT COUNT(*) AS "How many materials" FROM Materials;
 
 # Dump of table Policy
 # ------------------------------------------------------------
