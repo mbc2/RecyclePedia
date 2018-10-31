@@ -1,0 +1,37 @@
+#These queries create a table that says either "pass for fail"!
+
+drop table if exists result;
+create table result (output varchar(255)); 
+#finds correct number of zipcodes in each database
+insert into result (select if ((select count(zipcode) from Area) = 71, "pass", "fail"));
+#finds correct policy for a specific zipcode (45203)
+insert into result (select if ((select policy from Area where zipcode = 45203) = 1, "pass", "fail"));
+#finds correct number of materials in database
+insert into result (select if ((select count(material_id) from Materials) = 23, "pass", "fail"));
+#finds correct recycleable objects that can be recycled under policy with zipcode 45203
+#need to put into if statement still!
+insert into result (
+select material_name from Materials where material_id = (
+select R1_id from Recyclables where recycle_id = (
+select recycle_id from Policy where policy = (
+select policy from Area where zipcode = 45203
+)))
+OR
+material_id = (
+select R2_id from Recyclables where recycle_id = (
+select recycle_id from Policy where policy = (
+select policy from Area where zipcode = 45203
+)))
+OR
+material_id = (
+select R3_id from Recyclables where recycle_id = (
+select recycle_id from Policy where policy = (
+select policy from Area where zipcode = 45203
+)))
+OR
+material_id = (
+select R4_id from Recyclables where recycle_id = (
+select recycle_id from Policy where policy = (
+select policy from Area where zipcode = 45203
+)))
+);
