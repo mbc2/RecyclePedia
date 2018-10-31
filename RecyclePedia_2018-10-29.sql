@@ -186,7 +186,22 @@ VALUES
 	('420','Hazardous waste','Recycling Centers'),
 	('421','Window glass, mirrors, drinking glasses','Recycling Centers'),
 	('422','Bound books','Recycling Centers'),
-	('423','Picnic ware- plastic cups and silverware, plates, napkins, etc','Recycling Centers');
+	('423','Picnic ware- plastic cups and silverware, plates, napkins, etc','Recycling Centers'),
+  ('424','Food wasete', 'Anaerobic Digestion,Commercial Composting, Backyard & Neighborhood Composting '),
+  ('425','Concrete','Landfill'),
+  ('426','Brick','Landfill'),
+  ('427','Masonry','Landfill'),
+  ('428','Stone','Landfill'),
+  ('429','Glass','Landfill'),
+  ('430','Asphalt','Landfill'),
+  ('431','Dry wall','Landfill'),
+  ('426','Plaster','Landfill'),
+  ('427','Paneling Lumber','Landfill'),
+  ('428','Plumbing fixtures','Landfill'),
+  ('429','Insulation','Landfill'),
+  ('430','Roofing materials','Landfill'),
+  ('431','Wiring','Landfill');
+
 
 /*!40000 ALTER TABLE `Materials` ENABLE KEYS */;
 UNLOCK TABLES;
