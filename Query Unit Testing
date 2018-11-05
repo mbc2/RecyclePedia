@@ -1,37 +1,51 @@
 #These queries create a table that says either "pass for fail"!
+#Press keys alt-command-R to run all at once.
 
-drop table if exists result;
-create table result (output varchar(255)); 
+#creates test results table
+drop table if exists test_results;
+create table test_results (testName varchar(255), testResult varchar(255)); 
+
 #finds correct number of zipcodes in each database
-insert into result (select if ((select count(zipcode) from Area) = 71, "pass", "fail"));
+insert into test_results values ("Find number of zipcodes", (select if ((select count(zipcode) from Area) = 71, "pass", "fail")));
+
 #finds correct policy for a specific zipcode (45203)
-insert into result (select if ((select policy from Area where zipcode = 45203) = 1, "pass", "fail"));
+insert into test_results values ("Find policy for specific zipcode", (select if ((select policy from Area where zipcode = 45203) = 1, "pass", "fail")));
+
 #finds correct number of materials in database
-insert into result (select if ((select count(material_id) from Materials) = 23, "pass", "fail"));
-#finds correct recycleable objects that can be recycled under policy with zipcode 45203
-#need to put into if statement still!
-insert into result (
-select material_name from Materials where material_id = (
-select R1_id from Recyclables where recycle_id = (
-select recycle_id from Policy where policy = (
-select policy from Area where zipcode = 45203
-)))
-OR
-material_id = (
-select R2_id from Recyclables where recycle_id = (
-select recycle_id from Policy where policy = (
-select policy from Area where zipcode = 45203
-)))
-OR
-material_id = (
-select R3_id from Recyclables where recycle_id = (
-select recycle_id from Policy where policy = (
-select policy from Area where zipcode = 45203
-)))
-OR
-material_id = (
-select R4_id from Recyclables where recycle_id = (
-select recycle_id from Policy where policy = (
-select policy from Area where zipcode = 45203
-)))
-);
+insert into test_results values ("Return correct number of materials in database", (select if ((select count(material_id) from Materials) = 37, "pass", "fail")));
+
+#select all recyclable materials from zipcode 45203's policy
+insert into test_results values ("Return correct recyclables for zipcode 45203", (
+select if ((
+select GROUP_CONCAT(M.material_name)
+from Materials as M join Recyclables as R
+where (M.material_id = R.R1_id or M.material_id = R.R2_id or M.material_id = R.R3_id or M.material_id = R4_id or M.material_id = R.R5_id)
+and
+R.recycle_id = (select distinct P.recycle_id
+from Policy as P join Area as A
+where A.policy = P.policy and A.zipcode = '45203'))
+= "Plastic Bottles and Jugs,Glass Jars,Aluminum Beverage Cans,Cartons,Aerosol Cans", "pass", "fail")));
+
+#select all landfill materials from zipcode 45203's policy
+insert into test_results values ("Return correct landfill items for zipcode 45203", (
+select if ((
+select GROUP_CONCAT(M.material_name)
+from Materials as M join Landfill as L
+where (M.material_id = L.L1_id or M.material_id = L.L2_id or M.material_id = L.L3_id or M.material_id = L.L4_id or M.material_id = L.L5_id)
+and
+L.landfill_id = (select distinct P.landfill_id
+from Policy as P join Area as A
+where A.policy = P.policy and A.zipcode = '45203'))
+= "Food waste,Concrete,Brick,Masonry,Stone", "pass", "fail")));
+
+#select all waste center materials from zipcode 45203's policy
+insert into test_results values ("Returns correct waste center items for zipcode 45203", (
+select if ((
+select GROUP_CONCAT(M.material_name)
+from Materials as M join Waste_Center as W
+where (M.material_id = W.WC1_id or M.material_id = W.WC2_id or M.material_id = W.WC3_id or M.material_id = W.WC4_id or M.material_id = W.WC5_id)
+and
+W.waste_center_id = (select distinct P.waste_center_id
+from Policy as P join Area as A
+where A.policy = P.policy and A.zipcode = '45203'))
+= "Batteries,Plastic Bags,Aluminum pie plates and food containers,Aluminum cat food cans", "pass", "fail")));
