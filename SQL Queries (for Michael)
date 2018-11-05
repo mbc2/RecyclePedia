@@ -1,0 +1,37 @@
+#finds correct number of zipcodes in each database
+select count(zipcode) from Area;
+
+#finds correct policy for a specific zipcode (45203)
+select policy from Area where zipcode = 45203;
+
+#finds correct number of materials in database
+select count(material_id) from Materials;
+
+#select all recyclable materials from zipcode 45203's policy
+select GROUP_CONCAT(M.material_name)
+from Materials as M join Recyclables as R
+where (M.material_id = R.R1_id or M.material_id = R.R2_id or M.material_id = R.R3_id or M.material_id = R4_id or M.material_id = R.R5_id)
+and
+R.recycle_id = (select distinct P.recycle_id
+from Policy as P join Area as A
+where A.policy = P.policy and A.zipcode = '45203');
+
+#select all landfill materials from zipcode 45203's policy
+select GROUP_CONCAT(M.material_name)
+from Materials as M join Landfill as L
+where (M.material_id = L.L1_id or M.material_id = L.L2_id or M.material_id = L.L3_id or M.material_id = L.L4_id or M.material_id = L.L5_id)
+and
+L.landfill_id = (select distinct P.landfill_id
+from Policy as P join Area as A
+where A.policy = P.policy and A.zipcode = '45203');
+
+#select all waste center materials from zipcode 45203's policy
+select GROUP_CONCAT(M.material_name)
+from Materials as M join Waste_Center as W
+where (M.material_id = W.WC1_id or M.material_id = W.WC2_id or M.material_id = W.WC3_id or M.material_id = W.WC4_id or M.material_id = W.WC5_id)
+and
+W.waste_center_id = (select distinct P.waste_center_id
+from Policy as P join Area as A
+where A.policy = P.policy and A.zipcode = '45203');
+
+
