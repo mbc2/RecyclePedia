@@ -6,6 +6,10 @@
 
 <html>
 	 <head>
+		<style>
+			#greeting {
+				color: red;
+			}
 	 </head>
  	<body>
 		<?php
@@ -26,9 +30,9 @@
 			$area = mysqli_fetch_array($areas);
 
 			//Prints Areas
-			echo 'Welcome to ';
+			echo '<div class="Greeting">Welcome to ';
 			echo $area['zipcode'];
-			echo '<br /> <br />';
+			echo '<br /> <br /></dv>';
 			//Prints Materials and Disposal Method
 			while ($row = mysqli_fetch_array($result)) {
 			 echo $row['material_name'] . ': ' . $row['method_to_break_down'] .'<br />';
