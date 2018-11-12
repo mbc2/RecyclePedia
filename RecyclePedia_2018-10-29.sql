@@ -289,12 +289,13 @@ VALUES
 ('470' , 'Insecticides','Recycling Center'),
 ('471' , 'No-pest strips','Recycling Center'),
 ('472' , 'Pesticides','Recycling Center'),
-('473' ,'Brake fluid','Recycling Center'),
-('474' ,'Car batteries','Recycling Center'),
+('473' , 'Brake fluid','Recycling Center'),
+('474' , 'Car batteries','Recycling Center'),
 ('475' , 'Carburetor cleaner','Recycling Center'),
 ('476' , 'Degreasers','Recycling Center'),
 ('477' , 'Engine solvents','Recycling Center'),
 ('478' , 'Gasoline and kerosene','Recycling Center');
+
 
 
 
