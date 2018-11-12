@@ -214,15 +214,15 @@ LOCK TABLES `Materials` WRITE;
 /*!40000 ALTER TABLE `Materials` DISABLE KEYS */;
 #These are all of the materials that are recyclable
 
-INSERT INTO `Materials` (`material_id`, `material_name`, `method_to_break_down`)
-VALUES
-	('400','Plastic Bottles and Jugs','Rinse, crush, and replace bottle cap.'),
-	('401','Glass Jars','Rinse and detach lid from bottle. Labels can be left on.'),
-	('402','Aluminum Beverage Cans','Rinse. Labels can be left on.'),
+INSERT INTO `Materials` (`material_id`, `material_name`, `method_to_break_down`) 
+VALUES	
+  ('400','Plastic Bottles and Jugs','Rinse, crush, and replace bottle cap.'), /* boston has it too */
+	('401','Glass Jars','Rinse and detach lid from bottle. Labels can be left on.'), /* boston has it too */
+	('402','Aluminum Beverage Cans','Rinse. Labels can be left on.'), /* boston has it too */
 	('403','Cartons','Rinse. Remove and dispose of caps and straws in the trash.'),
 	('404','Aerosol Cans','Remove lids and tips.'),
-	('405','Paperboard','Unfold.'),
-	('406','Cardboard','Break down into 3-by-3 sections '),
+	('405','Paperboard','Unfold.'), /* boston has it too */
+	('406','Cardboard','Break down into 3-by-3 sections '), /* boston has it too */
 	('407','Batteries','Recycling Centers'),
 	('408','Plastic Bags','Recycling Centers'),
 	('409','Aluminum pie plates and food containers','Recycling Centers'),
@@ -252,7 +252,28 @@ VALUES
   ('428','Plumbing fixtures','Landfill'),
   ('429','Insulation','Landfill'),
   ('430','Roofing materials','Landfill'),
-  ('431','Wiring','Landfill');
+  ('431','Wiring','Landfill'),
+  ​​​​​​('432','Antifreeze','Recycling Center'),
+('433' ,'Brake fluid','Recycling Center'),
+('434' ,'Car batteries','Recycling Center'),
+('435' , 'Carburetor cleaner','Recycling Center'),
+('436' , 'Degreasers','Recycling Center'),
+('437' , 'Engine solvents','Recycling Center'),
+('438' , 'Gasoline and kerosene','Recycling Center'),
+('439' , 'Motor oil and oil filters','Recycling Center'),
+('440' , 'Tires (never throw tires out with your regular trash) ','Recycling Center'),
+('441' , 'Tire cleaners','Recycling Center'),
+('442' , 'Transmission fluid','Recycling Center'),
+('443' , 'Acids and sulfuric acid, aerosol cans','Recycling Center'),
+('444' , 'Ammonia cleaners, radiator cleaners, rug cleaners, and upholstery cleaners','Recycling Center'),
+('445' , 'Artist supplies and hobby supplies like rubber cement','Recycling Center'),
+('446' , 'Caulk, chemistry set chemicals, pool chemicals','Recycling Center'),
+('447' , 'Driveway sealer, creosote, furnace cement, and roof cement','Recycling Center'),
+('448' , 'Dry-cell batteries, fiberglass resins, and metal cleaners','Recycling Center');
+
+
+
+
 
 
 /*!40000 ALTER TABLE `Materials` ENABLE KEYS */;
