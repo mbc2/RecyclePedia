@@ -27,7 +27,7 @@
 			echo '<div class="Greeting">Welcome to ';
             //Searches area to find policy 
             while ($area = mysqli_fetch_array($areas)) {
-                if ($area['zipcode'] = '45201') {
+                if ($area['zipcode'] == '45202') {
                     echo $area['zipcode'];
                     break;
                 }
@@ -40,7 +40,7 @@
             $policies = mysqli_query($db, $queryPolicies);
             //$policyid = mysqli_fetch_array($policies);
             while ($policyid = mysqli_fetch_array($policies)) {
-                if ($policyid['policy'] = $area['policy']) {
+                if ($policyid['policy'] == $area['policy']) {
                     echo $policyid['policy'];
                     break;
                 }
@@ -52,7 +52,7 @@
             $recyclables = mysqli_query($db, $queryRecyclables);
             //$recycleid = mysqli_fetch_array($recyclables));
             while ($recycleid = mysqli_fetch_array($recyclables)) {
-                if ($recycleid['recycle_id'] = $policyid['recycle_id']) {
+                if ($recycleid['recycle_id'] == $policyid['recycle_id']) {
                     echo $recycleid['recycle_id'];
                     break;
                 }
@@ -61,15 +61,20 @@
             //Querys Materials
 			$queryMaterials = "SELECT * FROM Materials";
 			mysqli_query($db, $queryMaterials) or die('Error querying database. ' .  mysqli_error($db));
-            
-            //Materials
+            //Prints corresponding materials
 			$result = mysqli_query($db, $queryMaterials);
-			$row = mysqli_fetch_array($result);
+			while($row = mysqli_fetch_array($result)) {
+                if ($row['material_id'] == $recycleid['R1_id']) {
+                    echo $row['material_name'] . ': ' . $row['method_to_break_down'] . '<br />';
+                    break;
+                }
+            }
+            
             
             //Prints Materials and Disposal Method
-			while ($row = mysqli_fetch_array($result)) {
-			 echo $row['material_name'] . ': ' . $row['method_to_break_down'] .'<br />';
-			}
+			//while ($row = mysqli_fetch_array($result)) {
+			 //echo $row['material_name'] . ': ' . $row['method_to_break_down'] .'<br />';
+			//}
 			//Closes connection to the database
 			mysqli_close($db);
 		?>
