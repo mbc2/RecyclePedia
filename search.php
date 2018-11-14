@@ -38,16 +38,25 @@
 			$queryPolicies = "SELECT * FROM Policy";
 			mysqli_query($db, $queryPolicies) or die('Error querying database. ' .  mysqli_error($db));
             $policies = mysqli_query($db, $queryPolicies);
-            $policyid = mysqli_fetch_array($policies);
+            //$policyid = mysqli_fetch_array($policies);
             while ($policyid = mysqli_fetch_array($policies)) {
-                if ($policyid['policy'] = $area['policy'])
+                if ($policyid['policy'] = $area['policy']) {
+                    echo $policyid['policy'];
                     break;
+                }
             }
         
             //Querys Recyclables
-            
-            
-        
+            $queryRecyclables = "SELECT * FROM Recyclables";
+            mysqli_query($db, $queryRecyclables) or die('Error querying database. ' .  mysqli_error($db));
+            $recyclables = mysqli_query($db, $queryRecyclables);
+            //$recycleid = mysqli_fetch_array($recyclables));
+            while ($recycleid = mysqli_fetch_array($recyclables)) {
+                if ($recycleid['recycle_id'] = $policyid['recycle_id']) {
+                    echo $recycleid['recycle_id'];
+                    break;
+                }
+            }
         
             //Querys Materials
 			$queryMaterials = "SELECT * FROM Materials";
