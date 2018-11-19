@@ -13,7 +13,9 @@
 		</style>
 	 </head>
  	<body>
+        <input type="zipcode" class="form-control" size="50" placeholder="Zip Code" required>
 		<?php
+            $zipcode = $_POST['zipcode'];
 			//Querys Areas
 			$queryAreas = "SELECT * FROM Area";
 			mysqli_query($db, $queryAreas) or die('Error querying database. ' .  mysqli_error($db));
