@@ -82,9 +82,7 @@ get specific information on recycling for that location.
 | DETAILS-01 | The zip code that appears on the Details page is the same as what was entered in the Search bar after clicking enter. | 3rd Party User | Pass |
 | HELP-01 | Successfully navigate to the help page of a material by clicking on the help link next to that material. | 3rd Party User | Not implemented |
 | LINK-01 | Navigate to the correct area webpage by clicking the link at the bottom of the page on the Details page. | 3rd Party User | Not implemented |
-| MAP-01 | Successfully navigate to the correct statistics page of a state by clicking on a state in the interactive map on the Why Recycle page.
-| 3rd Party User
-| -Bug- |
+| MAP-01 | Successfully navigate to the correct statistics page of a state by clicking on a state in the interactive map on the Why Recycle page. | 3rd Party User | -Bug- |
 | NAV-01 | Successfully navigate to the About page using the About button on the navigation bar. | 3rd Party User | Pass |
 | NAV-02 | Successfully navigate to the Why Recycle page using the Why Recycle button navigation bar. | 3rd Party User | Pass |
 | NAV-03 | Successfully navigate to the Home page using the Home button on the navigation bar. | 3rd Party User | Pass |
