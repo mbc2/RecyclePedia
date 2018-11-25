@@ -47,7 +47,7 @@ get specific information on recycling for that location.
 | SEARCH-01 | Ensure search happens in no greater than 15 seconds. | RecyclePedia Team | Pass | < 2 sec |
 | IMAGE-01 | Ensure all images load in no greater than 5 seconds. | RecyclePedia Team | Pass | < 1 sec |
 | MAP-01 | Ensure the map loads in no greater than 5 seconds. | RecyclePedia Team | Pass | < 1 sec |
-| MAP-02 | Ensure the state web pages load in no greater than 5 seconds. | RecyclePedia Team | N/A | Not implemented due to bug |
+| MAP-02 | Ensure the state web pages load in no greater than 5 seconds. | RecyclePedia Team | N/A | -Bug-|
 
 
     
