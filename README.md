@@ -40,24 +40,10 @@ get specific information on recycling for that location.
 
 |Item to Test | Test Description | Responsibility | Result | Time |
 | --- | --- | --- | --- | --- |
-|WEBPAGE-01|Ensure the “Home” page loads in no greater than  5 seconds. |RecyclePedia Team
-|Pass
-|< 1 sec
-|WEBPAGE-02
-|Ensure the “About” page loads in no greater than 5 seconds.
-|RecyclePedia Team
-|Pass
-|< 1 sec
-|WEBPAGE-03
-|Ensure the “Why Recycle” page loads in no greater than 5 seconds.
-|RecyclePedia Team
-|Pass
-|< 1 sec
-|WEBPAGE-04
-|Ensure the “Help” page for material loads in no greater than 10 seconds.
-|RecyclePedia Team
-|N/A
-|Not implemented
+| WEBPAGE-01 | Ensure the “Home” page loads in no greater than  5 seconds. | RecyclePedia Team | Pass |< 1 sec |
+|WEBPAGE-02 | Ensure the “About” page loads in no greater than 5 seconds. | RecyclePedia Team | Pass | < 1 sec |
+|WEBPAGE-03 | Ensure the “Why Recycle” page loads in no greater than 5 seconds. | RecyclePedia Team | Pass | < 1 sec |
+|WEBPAGE-04 | Ensure the “Help” page for material loads in no greater than 10 seconds. | RecyclePedia Team | N/A | Not implemented |
 |SEARCH-01
 |Ensure search happens in no greater than 15 seconds. 
 |RecyclePedia Team
