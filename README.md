@@ -67,24 +67,12 @@ get specific information on recycling for that location.
 | Item to Test | Test Description | Responsibility |
 | --- | --- | --- |
 | ZIP-01 | This test will be performed by a SQL query that will compare the number of zip codes in the Area table to the number of zip codes returned by the SQL query. | Jennifer Wourms |
-| ZIP-02
-| This test will be performed by a SQL query that will compare the policy of a specific zip code to the zip code of the policy returned by the SQL query.
-| Jennifer Wourms |
-| ZIP-03
-| This test will be performed by a SQL query that will determine if all zip codes are returned when queried for a specific policy number.
-| Jennifer Wourms |
-| MAT-01
-| This test will be performed by a SQL query that will compare the number of materials in the Materials table to the number of materials returned by the SQL query.
-| Jennifer Wourms |
-| REC-01
-| This test will be performed by a SQL query that will compare a string containing all the recyclable items of a zip code in each recycling policy to a string of recyclable items returned by the SQL query.
-| Jennifer Wourms |
-| LAND-01
-| This test will be performed by a SQL query that will compare a string containing all the landfill items of a zip code in each landfill policy to a string of landfill items returned by the SQL query.
-| Jennifer Wourms |
-| WC-01
-| This test will be performed by a SQL query that will compare a string containing all the waste center items of a zip code in each waste center policy to a string of waste center items returned by the SQL query.
-| Jennifer Wourms |
+| ZIP-02 | This test will be performed by a SQL query that will compare the policy of a specific zip code to the zip code of the policy returned by the SQL query. | Jennifer Wourms |
+| ZIP-03 | This test will be performed by a SQL query that will determine if all zip codes are returned when queried for a specific policy number. | Jennifer Wourms |
+| MAT-01 | This test will be performed by a SQL query that will compare the number of materials in the Materials table to the number of materials returned by the SQL query. | Jennifer Wourms |
+| REC-01 | This test will be performed by a SQL query that will compare a string containing all the recyclable items of a zip code in each recycling policy to a string of recyclable items returned by the SQL query. | Jennifer Wourms |
+| LAND-01 | This test will be performed by a SQL query that will compare a string containing all the landfill items of a zip code in each landfill policy to a string of landfill items returned by the SQL query. | Jennifer Wourms |
+| WC-01 | This test will be performed by a SQL query that will compare a string containing all the waste center items of a zip code in each waste center policy to a string of waste center items returned by the SQL query. | Jennifer Wourms |
 
 
 
