@@ -16,10 +16,36 @@ get specific information on recycling for that location.
 | Interactive US map so you could click your state, zoom in and click your county (if its different by county), and navigate to the recycling rules that way | 1 | 
 | Organize rules based on graphics cards for paper, glass, plastic, etc | 1 | 
 | Could link it to CWRU and find all the recycling bin locations (should be reported by the Green Ambassadors) | 2 |
-| Images for what public recycling bins look like in each city | 2 |
-| Use data analytics to sort states with the strictest recycling codes or what items are recycled most often or something else, list by rank | 2 |
 
 # Definition of "Done"
 
-* Have at least 5 zipcodes whose recycling policies are listed and functional on website
-* Others...?
+* Have at least 3 zipcodes whose recycling policies are listed and functional on website
+
+# Functional Test
+ 
+|Item to Test | Test Description | Responsibility | Result|
+| --- | --- | --- | --- |
+| WEBPAGE-01 | Ensure the “Home” page loads with proper images and framework | RecyclePedia Team | Pass |
+| WEBPAGE-02 | Ensure the “About” page loads with proper images and framework | RecyclePedia Team | Pass |
+| WEBPAGE-03 | Ensure the “Why Recycle” page loads with proper images and framework | RecyclePedia Team | Pass |
+| WEBPAGE-04 | Ensure the “Help” page for material loads with proper images and framework | RecyclePedia Team | Pass |
+|DETAILS-01 | The user should be able to type zip codes into the search box | RecyclePedia Team | Pass
+| NAV-01,NAV-02, NAV-03 | The user should be able to click on the links in the navigation bar | RecyclePedia Team | Pass |
+SEARCH-01
+Verify the inputted zip code is one supported by the database
+RecyclePedia Team
+Pass
+SEARCH-02
+Verify that the search function will not work without any text in the box
+RecyclePedia Team
+-Bug-
+TEXT-01
+Verify that the font of the text displayed on the webpage is as per specified.
+RecyclePedia Team
+Pass
+DATABASE-01
+Verify that information loaded from the database is as per specified by the zip code.
+RecyclePedia Team
+Pass
+
+    
