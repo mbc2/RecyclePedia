@@ -31,21 +31,9 @@ get specific information on recycling for that location.
 | WEBPAGE-04 | Ensure the “Help” page for material loads with proper images and framework | RecyclePedia Team | Pass |
 |DETAILS-01 | The user should be able to type zip codes into the search box | RecyclePedia Team | Pass
 | NAV-01,NAV-02, NAV-03 | The user should be able to click on the links in the navigation bar | RecyclePedia Team | Pass |
-SEARCH-01
-Verify the inputted zip code is one supported by the database
-RecyclePedia Team
-Pass
-SEARCH-02
-Verify that the search function will not work without any text in the box
-RecyclePedia Team
--Bug-
-TEXT-01
-Verify that the font of the text displayed on the webpage is as per specified.
-RecyclePedia Team
-Pass
-DATABASE-01
-Verify that information loaded from the database is as per specified by the zip code.
-RecyclePedia Team
-Pass
+| SEARCH-01 | Verify the inputted zip code is one supported by the database | RecyclePedia Team | Pass |
+| SEARCH-02 | Verify that the search function will not work without any text in the box | RecyclePedia Team | -Bug- |
+| TEXT-01 | Verify that the font of the text displayed on the webpage is as per specified. | RecyclePedia Team | Pass |
+| DATABASE-01 | Verify that information loaded from the database is as per specified by the zip code. | RecyclePedia Team | Pass |
 
     
