@@ -23,7 +23,7 @@ get specific information on recycling for that location.
 
 # Functional Test
  
-|Item to Test | Test Description | Responsibility | Result|
+| Item to Test | Test Description | Responsibility | Result|
 | --- | --- | --- | --- |
 | WEBPAGE-01 | Ensure the “Home” page loads with proper images and framework | RecyclePedia Team | Pass |
 | WEBPAGE-02 | Ensure the “About” page loads with proper images and framework | RecyclePedia Team | Pass |
@@ -38,32 +38,16 @@ get specific information on recycling for that location.
 
 # Performance Test
 
-|Item to Test | Test Description | Responsibility | Result | Time |
+| Item to Test | Test Description | Responsibility | Result | Time |
 | --- | --- | --- | --- | --- |
 | WEBPAGE-01 | Ensure the “Home” page loads in no greater than  5 seconds. | RecyclePedia Team | Pass |< 1 sec |
-|WEBPAGE-02 | Ensure the “About” page loads in no greater than 5 seconds. | RecyclePedia Team | Pass | < 1 sec |
-|WEBPAGE-03 | Ensure the “Why Recycle” page loads in no greater than 5 seconds. | RecyclePedia Team | Pass | < 1 sec |
-|WEBPAGE-04 | Ensure the “Help” page for material loads in no greater than 10 seconds. | RecyclePedia Team | N/A | Not implemented |
-|SEARCH-01
-|Ensure search happens in no greater than 15 seconds. 
-|RecyclePedia Team
-|Pass
-|< 2 sec
-|IMAGE-01
-|Ensure all images load in no greater than 5 seconds.
-|RecyclePedia Team
-|Pass
-|< 1 sec
-|MAP-01
-|Ensure the map loads in no greater than 5 seconds.
-|RecyclePedia Team
-|Pass
-|<1 sec
-|MAP-02
-|Ensure the state web pages load in no greater than 5 seconds.
-|RecyclePedia Team
-|N/A
-|Not implemented due to bug
+| WEBPAGE-02 | Ensure the “About” page loads in no greater than 5 seconds. | RecyclePedia Team | Pass | < 1 sec |
+| WEBPAGE-03 | Ensure the “Why Recycle” page loads in no greater than 5 seconds. | RecyclePedia Team | Pass | < 1 sec |
+| WEBPAGE-04 | Ensure the “Help” page for material loads in no greater than 10 seconds. | RecyclePedia Team | N/A | Not implemented |
+| SEARCH-01 | Ensure search happens in no greater than 15 seconds. | RecyclePedia Team | Pass | < 2 sec |
+| IMAGE-01 | Ensure all images load in no greater than 5 seconds. | RecyclePedia Team | Pass | < 1 sec |
+| MAP-01 | Ensure the map loads in no greater than 5 seconds. | RecyclePedia Team | Pass | < 1 sec |
+| MAP-02 | Ensure the state web pages load in no greater than 5 seconds. | RecyclePedia Team | N/A | Not implemented due to bug |
 
 
     
