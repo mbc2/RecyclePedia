@@ -49,5 +49,17 @@ get specific information on recycling for that location.
 | MAP-01 | Ensure the map loads in no greater than 5 seconds. | RecyclePedia Team | Pass | < 1 sec |
 | MAP-02 | Ensure the state web pages load in no greater than 5 seconds. | RecyclePedia Team | N/A | -Bug-|
 
+# System Testing
+
+| Item to Test | Test Description | Responsibility | Result|
+| --- | --- | --- | --- |
+| DETAILS-01 | Ensure the recycling information corresponds to the proper zip code. | RecyclePedia Team | Pass |
+| HELP-01 | Successfully navigate to the help page of a material by clicking on the help link next to that material. | RecyclePedia Team | Not implemented | | LINK-01 | Clicking a link should direct users to the corresponding area webpage. | RecyclePedia Team | Not Implemented |
+| MAP-01 | Clicking on a state should direct users to a state page and load correct information on that state. | RecyclePedia Team| Not implemented due to bug |
+| NAV-01 | Click the “About” button. This should open the About page. | RecyclePedia Team | Pass |
+| NAV-02 | Click the “Why Recycle?” button. This should open the Importance page. | RecyclePedia Team | Pass |
+| NAV-03 | Click the “Home” button. This should open the Index page. | RecyclePedia Team | Pass |
+| SEARCH-01 | Click the search button. This should open the Details page. | RecyclePedia Team | Pass |
+| SEARCH-02 | Enter a zip code into search bar. Text should show up in the search bar. | RecyclePedia Team | Pass |
 
     
