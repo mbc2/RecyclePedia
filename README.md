@@ -49,17 +49,44 @@ get specific information on recycling for that location.
 | MAP-01 | Ensure the map loads in no greater than 5 seconds. | RecyclePedia Team | Pass | < 1 sec |
 | MAP-02 | Ensure the state web pages load in no greater than 5 seconds. | RecyclePedia Team | N/A | -Bug-|
 
-# System Testing
+# System Test
 
 | Item to Test | Test Description | Responsibility | Result|
 | --- | --- | --- | --- |
 | DETAILS-01 | Ensure the recycling information corresponds to the proper zip code. | RecyclePedia Team | Pass |
 | HELP-01 | Successfully navigate to the help page of a material by clicking on the help link next to that material. | RecyclePedia Team | Not implemented | | LINK-01 | Clicking a link should direct users to the corresponding area webpage. | RecyclePedia Team | Not Implemented |
-| MAP-01 | Clicking on a state should direct users to a state page and load correct information on that state. | RecyclePedia Team| Not implemented due to bug |
+| MAP-01 | Clicking on a state should direct users to a state page and load correct information on that state. | RecyclePedia Team| -Bug- |
 | NAV-01 | Click the “About” button. This should open the About page. | RecyclePedia Team | Pass |
 | NAV-02 | Click the “Why Recycle?” button. This should open the Importance page. | RecyclePedia Team | Pass |
 | NAV-03 | Click the “Home” button. This should open the Index page. | RecyclePedia Team | Pass |
 | SEARCH-01 | Click the search button. This should open the Details page. | RecyclePedia Team | Pass |
 | SEARCH-02 | Enter a zip code into search bar. Text should show up in the search bar. | RecyclePedia Team | Pass |
+
+# Unit Test
+
+| Item to Test | Test Description | Responsibility |
+| --- | --- | --- |
+| ZIP-01 | This test will be performed by a SQL query that will compare the number of zip codes in the Area table to the number of zip codes returned by the SQL query. | Jennifer Wourms |
+| ZIP-02
+| This test will be performed by a SQL query that will compare the policy of a specific zip code to the zip code of the policy returned by the SQL query.
+| Jennifer Wourms |
+| ZIP-03
+| This test will be performed by a SQL query that will determine if all zip codes are returned when queried for a specific policy number.
+| Jennifer Wourms |
+| MAT-01
+| This test will be performed by a SQL query that will compare the number of materials in the Materials table to the number of materials returned by the SQL query.
+| Jennifer Wourms |
+| REC-01
+| This test will be performed by a SQL query that will compare a string containing all the recyclable items of a zip code in each recycling policy to a string of recyclable items returned by the SQL query.
+| Jennifer Wourms |
+| LAND-01
+| This test will be performed by a SQL query that will compare a string containing all the landfill items of a zip code in each landfill policy to a string of landfill items returned by the SQL query.
+| Jennifer Wourms |
+| WC-01
+| This test will be performed by a SQL query that will compare a string containing all the waste center items of a zip code in each waste center policy to a string of waste center items returned by the SQL query.
+| Jennifer Wourms |
+
+
+
 
     
