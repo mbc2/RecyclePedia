@@ -75,6 +75,18 @@ get specific information on recycling for that location.
 | WC-01 | This test will be performed by a SQL query that will compare a string containing all the waste center items of a zip code in each waste center policy to a string of waste center items returned by the SQL query. | Jennifer Wourms |
 
 
-
-
-    
+# User Acceptance Test
+ 
+| Item to Test | Test Description | Responsibility | Result|
+| --- | --- | --- | --- |
+| DETAILS-01 | The zip code that appears on the Details page is the same as what was entered in the Search bar after clicking enter. | 3rd Party User | Pass |
+| HELP-01 | Successfully navigate to the help page of a material by clicking on the help link next to that material. | 3rd Party User | Not implemented |
+| LINK-01 | Navigate to the correct area webpage by clicking the link at the bottom of the page on the Details page. | 3rd Party User | Not implemented |
+| MAP-01 | Successfully navigate to the correct statistics page of a state by clicking on a state in the interactive map on the Why Recycle page.
+| 3rd Party User
+| -Bug- |
+| NAV-01 | Successfully navigate to the About page using the About button on the navigation bar. | 3rd Party User | Pass |
+| NAV-02 | Successfully navigate to the Why Recycle page using the Why Recycle button navigation bar. | 3rd Party User | Pass |
+| NAV-03 | Successfully navigate to the Home page using the Home button on the navigation bar. | 3rd Party User | Pass |
+| SEARCH-01 | Successfully navigate to the Details page by entering a zip code into the | Search bar and pressing enter. | 3rd Party User | Pass |
+| SEARCH-02 | Enter a zip code into the search bar. Text should show up in the search bar. | 3rd Party User | Pass |
