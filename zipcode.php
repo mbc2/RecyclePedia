@@ -1,7 +1,6 @@
 <?php
 // retrieve the form data by using the element's name attributes value as key 
- $zipcode = $_GET['Zip'];
- exit;
+ $zipcode = $_POST['Zip'];
 ?>
 
 <html>
@@ -50,44 +49,47 @@ h1 {
 body {
     background-color: #F0FFF0;
 }
-.navbar {
- list-style-type: none;
- margin-bottom: 0;
- margin-right: 0;
- background-color: #6B8E23;
- z-index: 9999;
- border: 0;
- font-size: 25px !important;
- line-height: 1.42857143 !important;
- letter-spacing: 1px;
- border-radius: 0;
- font-family: Montserrat, sans-serif;
-}
-.navbar li a, .navbar .navbar-brand {
+/*navigation bar*/
+  .navbar {
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-right: 0;
+    background-color: #6B8E23;
+    z-index: 9999;
+    border: 0;
+    font-size: 25px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 1px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
-}
-.navbar-nav li a:hover, .navbar-nav li.active a {
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #6B8E23 !important;
     background-color: #fff !important;
-}
-.navbar-default .navbar-toggle {
+  }
+  .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
-}
+  }
 /*will stack sections when acreen size decreased*/
 @media (max-width: 600px) {
     .column {
+        width: 100%;
+    }
+    .navbar-collapse {
         width: 100%;
     }
 }
 </style>
 </head>
 <body ><!-- navigation bar information -->
-<body ><!-- navigation bar information -->
   <nav class="navbar navbar-default navbar-fixed-top">
      <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="importance.html">Why Recycle?</a></li>
         </ul>
@@ -96,7 +98,7 @@ body {
 <br>
 <br> 
 
-<h1>Welcome to <?php echo $zipcode ?></h1>
+<h1>Welcome to <?php echo $zipcode?></h1>
 <div class="container">
     <div class="row">
         <div class="column" style="background-color:#6B8E23;">
