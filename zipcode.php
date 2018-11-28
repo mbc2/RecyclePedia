@@ -97,8 +97,8 @@ body {
 </nav>
 <br>
 <br> 
+<br>
 
-<h1>Welcome to <?php echo $zipcode?></h1>
 <div class="container">
     <div class="row">
         <div class="column" style="background-color:#6B8E23;">
