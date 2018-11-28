@@ -1,0 +1,179 @@
+12:33:56 [ERR][      Workbench]: Console redirection failed.
+12:33:56 [INF][      Workbench]: Starting up Workbench
+12:33:56 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0 CE\MySQLWorkbench.exe" 
+	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\WINDOWS\system32
+	TickCount: 949083875
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 40570880
+12:33:56 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = DESKTOP-8Q5KAJT
+	USERPROFILE = C:\Users\Michael
+	HOMEPATH = \Users\Michael
+	LOCALAPPDATA = C:\Users\Michael\AppData\Local
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+	PROCESSOR_ARCHITECTURE = AMD64
+	Path = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Brackets\command;C:\Users\Michael\AppData\Local\Microsoft\WindowsApps;C:\Users\Michael\AppData\Local\GitHubDesktop\bin;C:\Users\Michael\AppData\Roaming\npm
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	PROCESSOR_LEVEL = 6
+	LOGONSERVER = \\DESKTOP-8Q5KAJT
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	HOMEDRIVE = C:
+	SystemRoot = C:\WINDOWS
+	SESSIONNAME = Console
+	ALLUSERSPROFILE = C:\ProgramData
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+	APPDATA = C:\Users\Michael\AppData\Roaming
+	PROCESSOR_REVISION = 8e0a
+	USERNAME = Michael
+	CommonProgramW6432 = C:\Program Files\Common Files
+	TEMP = C:\Users\Michael\AppData\Local\Temp
+	OneDrive = C:\Users\Michael\OneDrive
+	CommonProgramFiles = C:\Program Files\Common Files
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = DESKTOP-8Q5KAJT
+	PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+	ComSpec = C:\WINDOWS\system32\cmd.exe
+	SystemDrive = C:
+	FPS_BROWSER_USER_PROFILE_STRING = Default
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 8
+	TMP = C:\Users\Michael\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\WINDOWS
+	USERDOMAIN = DESKTOP-8Q5KAJT
+	PUBLIC = C:\Users\Public
+12:33:56 [INF][      Workbench]: Current version given by meta info is: 8.0.13
+12:33:56 [INF][      Workbench]: Setting PATH to: C:\WINDOWS\system32;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Brackets\command;C:\Users\Michael\AppData\Local\Microsoft\WindowsApps;C:\Users\Michael\AppData\Local\GitHubDesktop\bin;C:\Users\Michael\AppData\Roaming\npm
+12:33:56 [INF][ mforms managed]: Initializing mforms wrapper
+12:33:57 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	struct path: 
+	module path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE/modules
+	library path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	user data dir: C:\Users\Michael\AppData\Roaming\MySQL\Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+12:33:57 [INF][      WBContext]: WbContext::init
+12:34:02 [INF][            WBA]: Looking for extension modules for WBA...
+12:34:02 [INF][            WBA]: 0 extension modules found
+12:34:02 [WRN][            grt]: C:\Program Files\MySQL\MySQL Workbench 8.0 CE\modules/data/mysql_rdbms_info.xml:1401: link 'om.mysql.rdbms.mysql.driver.native_sshtun' <object > key=owner could not be resolved
+12:34:02 [WRN][            grt]: C:\Users\Michael\AppData\Roaming\MySQL\Workbench\connections.xml:26: link '{080D1866-3B97-46B9-B513-6F01F408C154}' <object GrtObject> key=owner could not be resolved
+12:34:02 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Windows version 8.0.13 CE build 13780177 (64 bit)
+	Configuration Directory: C:\Users\Michael\AppData\Roaming\MySQL\Workbench
+	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	Cairo Version: 1.10.2
+	OS: Microsoft Windows 10 Home
+	CPU: 8x Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, 7.9 GiB RAM
+	Active video adapter Intel(R) UHD Graphics 620
+	Installed video RAM: 1024 MB
+	Current video mode: 1920 x 1080 x 4294967296 colors
+	Used bit depth: 32
+	Driver version: 23.20.16.4973
+	Installed display drivers: C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_c9081e50bcffa972\igdumdim64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_c9081e50bcffa972\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_c9081e50bcffa972\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_c9081e50bcffa972\igd12umd64.dll
+	Current user language: English (United States)
+
+12:34:02 [WRN][    WQE backend]: Found incomplete auto-save workspace C:\Users\Michael\AppData\Roaming\MySQL\Workbench\sql_workspaces\unconnected-1.autosave
+12:34:02 [INF][    WQE backend]: Found auto-save workspace C:\Users\Michael\AppData\Roaming\MySQL\Workbench\sql_workspaces\unconnected-2.autosave
+12:34:02 [WRN][    WQE backend]: Found incomplete auto-save workspace C:\Users\Michael\AppData\Roaming\MySQL\Workbench\sql_workspaces\unconnected-3.autosave
+12:34:02 [WRN][    WQE backend]: Found incomplete auto-save workspace C:\Users\Michael\AppData\Roaming\MySQL\Workbench\sql_workspaces\unconnected-4.autosave
+12:34:02 [WRN][    WQE backend]: Found incomplete auto-save workspace C:\Users\Michael\AppData\Roaming\MySQL\Workbench\sql_workspaces\unconnected-5.autosave
+12:34:02 [WRN][    WQE backend]: Found incomplete auto-save workspace C:\Users\Michael\AppData\Roaming\MySQL\Workbench\sql_workspaces\unconnected-6.autosave
+12:34:02 [WRN][    WQE backend]: Found incomplete auto-save workspace C:\Users\Michael\AppData\Roaming\MySQL\Workbench\sql_workspaces\unconnected-7.autosave
+12:34:02 [INF][      Workbench]: UI is up
+12:34:03 [INF][      Workbench]: Running the application
+12:34:08 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Can't connect to MySQL server on 'localhost' (10061)
+12:34:08 [WRN][SQL Editor Form]: Can't connect to MySQL server on 'localhost' (10061)
+12:34:08 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+12:34:08 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+12:34:09 [INF][        WQE.net]: Launching SQL IDE
+12:34:09 [ERR][ SqlEditorPanel]: Could not read file C:\Users\Michael\Documents\GitHub\RecyclePedi\RecyclePedia_2018-11-15.sql: Failed to open file 'C:\Users\Michael\Documents\GitHub\RecyclePedi\RecyclePedia_2018-11-15.sql': No such file or directory
+12:34:10 [INF][        WQE.net]: SQL IDE UI is ready
+12:34:14 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Can't connect to MySQL server on 'localhost' (10061) (code 2003)
+12:34:14 [INF][wb_admin_control.py:query_server_installation_info:860]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+12:34:16 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError("Can't connect to MySQL server on 'localhost' (10061) (code 2003)",)
+12:37:09 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Can't connect to MySQL server on 'localhost' (10061)
+12:37:09 [WRN][SQL Editor Form]: Can't connect to MySQL server on 'localhost' (10061)
+12:37:09 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+12:37:09 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+12:37:10 [INF][        WQE.net]: Launching SQL IDE
+12:37:10 [ERR][ SqlEditorPanel]: Could not read file C:\Users\Michael\Documents\GitHub\RecyclePedi\RecyclePedia_2018-11-15.sql: Failed to open file 'C:\Users\Michael\Documents\GitHub\RecyclePedi\RecyclePedia_2018-11-15.sql': No such file or directory
+12:37:10 [INF][        WQE.net]: SQL IDE UI is ready
+12:37:16 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Can't connect to MySQL server on 'localhost' (10061) (code 2003)
+12:37:16 [INF][wb_admin_control.py:query_server_installation_info:860]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+12:37:18 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError("Can't connect to MySQL server on 'localhost' (10061) (code 2003)",)
+12:37:33 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+12:41:52 [ERR][SQL Editor Form]: Unable to create db_mgmt_SSHConnectionRef object
+12:42:27 [ERR][wb_admin_export.py:process_db:251]: Error from task: mysqldump: Got error: 1045: Access denied for user 'root'@'localhost' (using password: YES) when trying to connect
+
+12:42:27 [WRN][wb_admin_export.py:process_db:277]: Task exited with code 2
+12:42:27 [ERR][wb_admin_export.py:process_db:251]: Error from task: mysqldump: Got error: 1045: Access denied for user 'root'@'localhost' (using password: YES) when trying to connect
+
+12:42:27 [WRN][wb_admin_export.py:process_db:277]: Task exited with code 2
+12:42:27 [ERR][wb_admin_export.py:process_db:251]: Error from task: mysqldump: Got error: 1045: Access denied for user 'root'@'localhost' (using password: YES) when trying to connect
+
+12:42:27 [WRN][wb_admin_export.py:process_db:277]: Task exited with code 2
+12:42:27 [ERR][wb_admin_export.py:process_db:251]: Error from task: mysqldump: Got error: 1045: Access denied for user 'root'@'localhost' (using password: YES) when trying to connect
+
+12:42:27 [WRN][wb_admin_export.py:process_db:277]: Task exited with code 2
+12:42:27 [ERR][wb_admin_export.py:process_db:251]: Error from task: mysqldump: Got error: 1045: Access denied for user 'root'@'localhost' (using password: YES) when trying to connect
+
+12:42:27 [WRN][wb_admin_export.py:process_db:277]: Task exited with code 2
+12:42:30 [ERR][wb_admin_export.py:process_db:251]: Error from task: mysqldump: Got error: 1045: Access denied for user 'root'@'localhost' (using password: YES) when trying to connect
+
+12:42:30 [WRN][wb_admin_export.py:process_db:277]: Task exited with code 2
+12:42:32 [ERR][wb_admin_export.py:process_db:251]: Error from task: mysqldump: Couldn't execute 'SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'recyclepedia' AND TABLE_NAME = 'landfill';': Unknown table 'column_statistics' in information_schema (1109)
+
+12:42:32 [WRN][wb_admin_export.py:process_db:277]: Task exited with code 2
+12:42:32 [ERR][wb_admin_export.py:process_db:251]: Error from task: mysqldump: Couldn't execute 'SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'recyclepedia' AND TABLE_NAME = 'materials';': Unknown table 'column_statistics' in information_schema (1109)
+
+12:42:32 [WRN][wb_admin_export.py:process_db:277]: Task exited with code 2
+12:42:32 [ERR][wb_admin_export.py:process_db:251]: Error from task: mysqldump: Couldn't execute 'SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'recyclepedia' AND TABLE_NAME = 'recyclables';': Unknown table 'column_statistics' in information_schema (1109)
+
+12:42:32 [WRN][wb_admin_export.py:process_db:277]: Task exited with code 2
+12:42:32 [ERR][wb_admin_export.py:process_db:251]: Error from task: mysqldump: Couldn't execute 'SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'recyclepedia' AND TABLE_NAME = 'area';': Unknown table 'column_statistics' in information_schema (1109)
+
+12:42:32 [WRN][wb_admin_export.py:process_db:277]: Task exited with code 2
+12:42:32 [ERR][wb_admin_export.py:process_db:251]: Error from task: mysqldump: Couldn't execute 'SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'recyclepedia' AND TABLE_NAME = 'policy';': Unknown table 'column_statistics' in information_schema (1109)
+
+12:42:32 [WRN][wb_admin_export.py:process_db:277]: Task exited with code 2
+12:42:33 [ERR][wb_admin_export.py:process_db:251]: Error from task: mysqldump: Couldn't execute 'SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'recyclepedia' AND TABLE_NAME = 'waste_center';': Unknown table 'column_statistics' in information_schema (1109)
+
+12:42:33 [WRN][wb_admin_export.py:process_db:277]: Task exited with code 2
+12:42:33 [ERR][wb_admin_export.py:process_db:251]: Error from task: mysqldump: Couldn't execute 'SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'recyclepedia' AND TABLE_NAME = 'test_results';': Unknown table 'column_statistics' in information_schema (1109)
+
+12:42:33 [WRN][wb_admin_export.py:process_db:277]: Task exited with code 2
+12:42:42 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: YES)
+12:42:42 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: YES)
+12:42:45 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: YES)
+12:42:45 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: YES)
+12:44:06 [INF][      WBContext]: Connection to Local instance MySQL80 cancelled by user: canceled
+12:44:24 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+12:44:38 [INF][SQL Editor Form]: Opened connection 'recyclepedia' to mariadb.org binary distribution version 10.1.36-MariaDB
+12:44:38 [ERR][SQL Editor Form]: Unable to create db_mgmt_SSHConnectionRef object
+12:44:38 [INF][  column_widths]: Initializing column width cache for recyclepedia
+12:44:38 [ERR][      WBContext]: Unsupported server version: mariadb.org binary distribution 10.1.36-MariaDB
+12:44:38 [INF][        WQE.net]: Launching SQL IDE
+12:44:39 [INF][        WQE.net]: SQL IDE UI is ready
+12:44:47 [ERR][SQL Editor Form]: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+12:45:02 [ERR][SQL Editor Form]: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+21:45:48 [INF][        WQE.net]: Shutting down SQL editor (recyclepedia - Warning - not supported)
+21:45:48 [INF][      Workbench]: Shutting down Workbench
+21:45:48 [INF][ mforms managed]: Shutting down mforms wrapper
+21:45:48 [INF][      Workbench]: Done
