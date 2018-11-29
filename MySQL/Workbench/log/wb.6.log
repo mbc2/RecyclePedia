@@ -1,0 +1,106 @@
+15:11:00 [ERR][      Workbench]: Console redirection failed.
+15:11:00 [INF][      Workbench]: Starting up Workbench
+15:11:00 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0 CE\MySQLWorkbench.exe" 
+	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\WINDOWS\system32
+	TickCount: 180907703
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 40525824
+15:11:00 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = DESKTOP-8Q5KAJT
+	USERPROFILE = C:\Users\Michael
+	HOMEPATH = \Users\Michael
+	LOCALAPPDATA = C:\Users\Michael\AppData\Local
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+	PROCESSOR_ARCHITECTURE = AMD64
+	Path = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Brackets\command;C:\Users\Michael\AppData\Local\Microsoft\WindowsApps;C:\Users\Michael\AppData\Local\GitHubDesktop\bin;C:\Users\Michael\AppData\Roaming\npm
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	PROCESSOR_LEVEL = 6
+	LOGONSERVER = \\DESKTOP-8Q5KAJT
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	HOMEDRIVE = C:
+	SystemRoot = C:\WINDOWS
+	SESSIONNAME = Console
+	ALLUSERSPROFILE = C:\ProgramData
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+	APPDATA = C:\Users\Michael\AppData\Roaming
+	PROCESSOR_REVISION = 8e0a
+	USERNAME = Michael
+	CommonProgramW6432 = C:\Program Files\Common Files
+	TEMP = C:\Users\Michael\AppData\Local\Temp
+	OneDrive = C:\Users\Michael\OneDrive
+	CommonProgramFiles = C:\Program Files\Common Files
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = DESKTOP-8Q5KAJT
+	PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+	ComSpec = C:\WINDOWS\system32\cmd.exe
+	SystemDrive = C:
+	FPS_BROWSER_USER_PROFILE_STRING = Default
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 8
+	TMP = C:\Users\Michael\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\WINDOWS
+	USERDOMAIN = DESKTOP-8Q5KAJT
+	PUBLIC = C:\Users\Public
+15:11:00 [INF][      Workbench]: Current version given by meta info is: 8.0.13
+15:11:00 [INF][      Workbench]: Setting PATH to: C:\WINDOWS\system32;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Brackets\command;C:\Users\Michael\AppData\Local\Microsoft\WindowsApps;C:\Users\Michael\AppData\Local\GitHubDesktop\bin;C:\Users\Michael\AppData\Roaming\npm
+15:11:00 [INF][ mforms managed]: Initializing mforms wrapper
+15:11:01 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	struct path: 
+	module path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE/modules
+	library path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	user data dir: C:\Users\Michael\AppData\Roaming\MySQL\Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+15:11:01 [INF][      WBContext]: WbContext::init
+15:11:08 [INF][            WBA]: Looking for extension modules for WBA...
+15:11:08 [INF][            WBA]: 0 extension modules found
+15:11:08 [WRN][            grt]: C:\Program Files\MySQL\MySQL Workbench 8.0 CE\modules/data/mysql_rdbms_info.xml:1401: link 'om.mysql.rdbms.mysql.driver.native_sshtun' <object > key=owner could not be resolved
+15:11:08 [WRN][            grt]: C:\Users\Michael\AppData\Roaming\MySQL\Workbench\connections.xml:26: link '{7F0ACF4A-52F4-48DB-9D27-1510A30BD018}' <object GrtObject> key=owner could not be resolved
+15:11:08 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Windows version 8.0.13 CE build 13780177 (64 bit)
+	Configuration Directory: C:\Users\Michael\AppData\Roaming\MySQL\Workbench
+	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	Cairo Version: 1.10.2
+	OS: Microsoft Windows 10 Home
+	CPU: 8x Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, 7.9 GiB RAM
+	Active video adapter Intel(R) UHD Graphics 620
+	Installed video RAM: 1024 MB
+	Current video mode: 1920 x 1080 x 4294967296 colors
+	Used bit depth: 32
+	Driver version: 23.20.16.4973
+	Installed display drivers: C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_c9081e50bcffa972\igdumdim64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_c9081e50bcffa972\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_c9081e50bcffa972\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_c9081e50bcffa972\igd12umd64.dll
+	Current user language: English (United States)
+
+15:11:08 [WRN][    WQE backend]: Found incomplete auto-save workspace C:\Users\Michael\AppData\Roaming\MySQL\Workbench\sql_workspaces\unconnected-1.autosave
+15:11:08 [INF][    WQE backend]: Found auto-save workspace C:\Users\Michael\AppData\Roaming\MySQL\Workbench\sql_workspaces\unconnected-2.autosave
+15:11:08 [WRN][    WQE backend]: Found incomplete auto-save workspace C:\Users\Michael\AppData\Roaming\MySQL\Workbench\sql_workspaces\unconnected-3.autosave
+15:11:08 [WRN][    WQE backend]: Found incomplete auto-save workspace C:\Users\Michael\AppData\Roaming\MySQL\Workbench\sql_workspaces\unconnected-4.autosave
+15:11:08 [WRN][    WQE backend]: Found incomplete auto-save workspace C:\Users\Michael\AppData\Roaming\MySQL\Workbench\sql_workspaces\unconnected-5.autosave
+15:11:08 [WRN][    WQE backend]: Found incomplete auto-save workspace C:\Users\Michael\AppData\Roaming\MySQL\Workbench\sql_workspaces\unconnected-6.autosave
+15:11:09 [INF][      Workbench]: UI is up
+15:11:09 [INF][      Workbench]: Running the application
+15:11:18 [INF][        WQE.net]: Launching SQL IDE
+15:11:19 [INF][        WQE.net]: SQL IDE UI is ready
+15:27:40 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to mariadb.org binary distribution version 10.1.36-MariaDB
+15:27:41 [ERR][      WBContext]: Unsupported server version: mariadb.org binary distribution 10.1.36-MariaDB
+15:27:41 [INF][        WQE.net]: Launching SQL IDE
+15:27:42 [INF][        WQE.net]: SQL IDE UI is ready
+15:28:12 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */' at line 21
+15:28:39 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to mariadb.org binary distribution version 10.1.36-MariaDB
+15:28:40 [ERR][      WBContext]: Unsupported server version: mariadb.org binary distribution 10.1.36-MariaDB

@@ -1,0 +1,2444 @@
+[1, 17:45:13] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[1, 17:45:13] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: 0 row(s) affected
+[2, 17:45:13] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: Running...
+[2, 17:45:13] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: 0 row(s) affected
+[3, 17:45:13] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: Running...
+[3, 17:45:13] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: 0 row(s) affected
+[4, 17:45:13] /*!40101 SET NAMES utf8 */: Running...
+[4, 17:45:13] /*!40101 SET NAMES utf8 */: 0 row(s) affected, 1 warning(s):
+3719 'utf8' is currently an alias for the character set UTF8MB3, but will be an alias for UTF8MB4 in a future release. Please consider using UTF8MB4 in order to be unambiguous.
+[5, 17:45:13] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: Running...
+[5, 17:45:13] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: 0 row(s) affected
+[6, 17:45:13] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: Running...
+[6, 17:45:13] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: 0 row(s) affected
+[7, 17:45:13] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: Running...
+[7, 17:45:13] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: 0 row(s) affected
+[8, 17:45:13] DROP TABLE IF EXISTS `Area`: Running...
+[8, 17:45:13] DROP TABLE IF EXISTS `Area`: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[9, 17:46:33] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[9, 17:46:33] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: 0 row(s) affected
+[10, 17:46:33] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: Running...
+[10, 17:46:33] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: 0 row(s) affected
+[11, 17:46:33] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: Running...
+[11, 17:46:33] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: 0 row(s) affected
+[12, 17:46:33] /*!40101 SET NAMES utf8 */: Running...
+[12, 17:46:33] /*!40101 SET NAMES utf8 */: 0 row(s) affected, 1 warning(s):
+3719 'utf8' is currently an alias for the character set UTF8MB3, but will be an alias for UTF8MB4 in a future release. Please consider using UTF8MB4 in order to be unambiguous.
+[13, 17:46:33] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: Running...
+[13, 17:46:33] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: 0 row(s) affected
+[14, 17:46:33] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: Running...
+[14, 17:46:33] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: 0 row(s) affected
+[15, 17:46:33] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: Running...
+[15, 17:46:33] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: 0 row(s) affected
+[16, 17:46:33] DROP TABLE IF EXISTS `Area`: Running...
+[16, 17:46:33] DROP TABLE IF EXISTS `Area`: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[1, 17:53:00] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[1, 17:53:00] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: 0 row(s) affected
+[2, 17:53:00] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: Running...
+[2, 17:53:00] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: 0 row(s) affected
+[3, 17:53:00] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: Running...
+[3, 17:53:00] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: 0 row(s) affected
+[4, 17:53:00] /*!40101 SET NAMES utf8 */: Running...
+[4, 17:53:00] /*!40101 SET NAMES utf8 */: 0 row(s) affected
+[5, 17:53:01] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: Running...
+[5, 17:53:01] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: 0 row(s) affected
+[6, 17:53:01] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: Running...
+[6, 17:53:01] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: 0 row(s) affected
+[7, 17:53:01] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: Running...
+[7, 17:53:01] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: 0 row(s) affected
+[8, 17:53:01] DROP TABLE IF EXISTS `Area`: Running...
+[8, 17:53:01] DROP TABLE IF EXISTS `Area`: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[9, 17:55:50] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[9, 17:55:50] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: 0 row(s) affected
+[10, 17:55:50] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: Running...
+[10, 17:55:50] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: 0 row(s) affected
+[11, 17:55:50] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: Running...
+[11, 17:55:50] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: 0 row(s) affected
+[12, 17:55:50] /*!40101 SET NAMES utf8 */: Running...
+[12, 17:55:50] /*!40101 SET NAMES utf8 */: 0 row(s) affected
+[13, 17:55:50] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: Running...
+[13, 17:55:50] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: 0 row(s) affected
+[14, 17:55:50] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: Running...
+[14, 17:55:50] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: 0 row(s) affected
+[15, 17:55:50] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: Running...
+[15, 17:55:50] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: 0 row(s) affected
+[16, 17:55:50] DROP TABLE IF EXISTS `Area`: Running...
+[16, 17:55:50] DROP TABLE IF EXISTS `Area`: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[1, 20:25:09] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[1, 20:25:09] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: 0 row(s) affected
+[2, 20:25:09] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: Running...
+[2, 20:25:09] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: 0 row(s) affected
+[3, 20:25:09] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: Running...
+[3, 20:25:09] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: 0 row(s) affected
+[4, 20:25:09] /*!40101 SET NAMES utf8 */: Running...
+[4, 20:25:09] /*!40101 SET NAMES utf8 */: 0 row(s) affected
+[5, 20:25:09] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: Running...
+[5, 20:25:09] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: 0 row(s) affected
+[6, 20:25:09] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: Running...
+[6, 20:25:09] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: 0 row(s) affected
+[7, 20:25:09] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: Running...
+[7, 20:25:09] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: 0 row(s) affected
+[8, 20:25:09] DROP TABLE IF EXISTS `Area`: Running...
+[8, 20:25:09] DROP TABLE IF EXISTS `Area`: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[1, 12:37:59] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[1, 12:37:59] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: 0 row(s) affected
+[2, 12:37:59] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: Running...
+[2, 12:37:59] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: 0 row(s) affected
+[3, 12:37:59] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: Running...
+[3, 12:37:59] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: 0 row(s) affected
+[4, 12:37:59] /*!40101 SET NAMES utf8 */: Running...
+[4, 12:37:59] /*!40101 SET NAMES utf8 */: 0 row(s) affected
+[5, 12:37:59] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: Running...
+[5, 12:37:59] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: 0 row(s) affected
+[6, 12:37:59] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: Running...
+[6, 12:37:59] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: 0 row(s) affected
+[7, 12:37:59] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: Running...
+[7, 12:37:59] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: 0 row(s) affected
+[8, 12:37:59] DROP TABLE IF EXISTS `Area`: Running...
+[8, 12:37:59] DROP TABLE IF EXISTS `Area`: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[9, 12:39:26] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[9, 12:39:26] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: 0 row(s) affected
+[10, 12:39:26] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: Running...
+[10, 12:39:26] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: 0 row(s) affected
+[11, 12:39:26] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: Running...
+[11, 12:39:26] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: 0 row(s) affected
+[12, 12:39:26] /*!40101 SET NAMES utf8 */: Running...
+[12, 12:39:27] /*!40101 SET NAMES utf8 */: 0 row(s) affected
+[13, 12:39:27] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: Running...
+[13, 12:39:27] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: 0 row(s) affected
+[14, 12:39:27] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: Running...
+[14, 12:39:27] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: 0 row(s) affected
+[15, 12:39:27] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: Running...
+[15, 12:39:27] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: 0 row(s) affected
+[16, 12:39:27] DROP TABLE IF EXISTS `Area`: Running...
+[16, 12:39:27] DROP TABLE IF EXISTS `Area`: 0 row(s) affected
+[17, 12:39:27] CREATE TABLE `Area` (
+  `zipcode` int(255) unsigned NOT NULL AUTO_INCREMENT,
+  `policy` int(11) DEFAULT NULL,
+  PRIMARY KEY (`zipcode`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[17, 12:39:27] CREATE TABLE `Area` (
+  `zipcode` int(255) unsigned NOT NULL AUTO_INCREMENT,
+  `policy` int(11) DEFAULT NULL,
+  PRIMARY KEY (`zipcode`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[18, 12:39:27] LOCK TABLES `Area` WRITE: Running...
+[18, 12:39:27] LOCK TABLES `Area` WRITE: 0 row(s) affected
+[19, 12:39:27] /*!40000 ALTER TABLE `Area` DISABLE KEYS */: Running...
+[19, 12:39:27] /*!40000 ALTER TABLE `Area` DISABLE KEYS */: 0 row(s) affected
+[20, 12:39:27] INSERT INTO `Area` (`zipcode`, `policy`)
+VALUES
+	(45201,1),
+  (45202,1),
+  (45203,1),
+  (45204,1),
+  (45205,1),
+  (45206,1),
+  (45207,1),
+  (45208,1),
+  (45209,1),
+  (45211,1),
+  (45212,1),
+  (45213,1),
+  (45214,1),
+  (45215,1),
+  (45216,1),
+  (45217,1),
+  (45218,1),
+  (45219,1),
+  (45220,1),
+  (45221,1),
+  (45222,1),
+  (45223,1),
+  (45224,1),
+  (45225,1),
+  (45226,1),
+  (45227,1),
+  (45229,1), 
+  (45230,1),
+  (45231,1),
+  (45232,1),
+  (45233,1),
+  (45234,1),
+  (45235,1),
+  (45236,1),
+  (45237,1),
+  (45238,1),
+  (45239,1),
+  (45240,1),
+  (45241,1),
+  (45242,1),
+  (45243,1),
+  (45244,1),
+  (45245,1),
+  (45246,1),
+  (45247,1),
+  (45248,1),
+  (45249,1),
+  (45250,1),
+  (45251,1),
+  (45252,1),
+ (45253,1),
+ (45254,1),
+ (45255,1),
+ (45258,1),
+ (45262,1),
+ (45263,1),
+ (45264,1),
+ (45267,1),
+ (45268,1),
+ (45269,1),
+ (45270,1),
+ (45271,1),
+ (45273,1),
+ (45274,1),
+ (45275,1),
+ (45277,1),
+ (45280,1),
+ (45296,1),
+ (45298,1),
+ (45299,1),
+ (45999,1): Running...
+[20, 12:39:27] INSERT INTO `Area` (`zipcode`, `policy`)
+VALUES
+	(45201,1),
+  (45202,1),
+  (45203,1),
+  (45204,1),
+  (45205,1),
+  (45206,1),
+  (45207,1),
+  (45208,1),
+  (45209,1),
+  (45211,1),
+  (45212,1),
+  (45213,1),
+  (45214,1),
+  (45215,1),
+  (45216,1),
+  (45217,1),
+  (45218,1),
+  (45219,1),
+  (45220,1),
+  (45221,1),
+  (45222,1),
+  (45223,1),
+  (45224,1),
+  (45225,1),
+  (45226,1),
+  (45227,1),
+  (45229,1), 
+  (45230,1),
+  (45231,1),
+  (45232,1),
+  (45233,1),
+  (45234,1),
+  (45235,1),
+  (45236,1),
+  (45237,1),
+  (45238,1),
+  (45239,1),
+  (45240,1),
+  (45241,1),
+  (45242,1),
+  (45243,1),
+  (45244,1),
+  (45245,1),
+  (45246,1),
+  (45247,1),
+  (45248,1),
+  (45249,1),
+  (45250,1),
+  (45251,1),
+  (45252,1),
+ (45253,1),
+ (45254,1),
+ (45255,1),
+ (45258,1),
+ (45262,1),
+ (45263,1),
+ (45264,1),
+ (45267,1),
+ (45268,1),
+ (45269,1),
+ (45270,1),
+ (45271,1),
+ (45273,1),
+ (45274,1),
+ (45275,1),
+ (45277,1),
+ (45280,1),
+ (45296,1),
+ (45298,1),
+ (45299,1),
+ (45999,1): 71 row(s) affected
+Records: 71  Duplicates: 0  Warnings: 0
+[21, 12:39:27] /*!40000 ALTER TABLE `Area` ENABLE KEYS */: Running...
+[21, 12:39:27] /*!40000 ALTER TABLE `Area` ENABLE KEYS */: 0 row(s) affected
+[22, 12:39:27] UNLOCK TABLES: Running...
+[22, 12:39:27] UNLOCK TABLES: 0 row(s) affected
+[23, 12:39:27] SELECT MAX(policy) AS "How many policies" FROM Area
+LIMIT 0, 1000
+: Running...
+[23, 12:39:27] SELECT MAX(policy) AS "How many policies" FROM Area
+LIMIT 0, 1000
+: Fetching...
+[23, 12:39:27] SELECT MAX(policy) AS "How many policies" FROM Area
+LIMIT 0, 1000
+: 1 row(s) returned
+[24, 12:39:27] DROP TABLE IF EXISTS `Landfill`: Running...
+[24, 12:39:27] DROP TABLE IF EXISTS `Landfill`: 0 row(s) affected
+[25, 12:39:27] CREATE TABLE `Landfill` (
+  `landfill_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `L1_id` int(11) DEFAULT NULL,
+  `L2_id` int(11) DEFAULT NULL,
+  `L3_id` int(11) DEFAULT NULL,
+  `L4_id` int(11) DEFAULT NULL,
+  `L5_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`landfill_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[25, 12:39:27] CREATE TABLE `Landfill` (
+  `landfill_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `L1_id` int(11) DEFAULT NULL,
+  `L2_id` int(11) DEFAULT NULL,
+  `L3_id` int(11) DEFAULT NULL,
+  `L4_id` int(11) DEFAULT NULL,
+  `L5_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`landfill_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[26, 12:39:27] LOCK TABLES `Landfill` WRITE: Running...
+[26, 12:39:27] LOCK TABLES `Landfill` WRITE: 0 row(s) affected
+[27, 12:39:27] /*!40000 ALTER TABLE `Landfill` DISABLE KEYS */: Running...
+[27, 12:39:27] /*!40000 ALTER TABLE `Landfill` DISABLE KEYS */: 0 row(s) affected
+[28, 12:39:27] INSERT INTO `Landfill` (`landfill_id`, `L1_id`, `L2_id`, `L3_id`, `L4_id`, `L5_id`)
+VALUES
+	(200,NULL,NULL,NULL,NULL,NULL): Running...
+[28, 12:39:27] INSERT INTO `Landfill` (`landfill_id`, `L1_id`, `L2_id`, `L3_id`, `L4_id`, `L5_id`)
+VALUES
+	(200,NULL,NULL,NULL,NULL,NULL): 1 row(s) affected
+[29, 12:39:27] /*!40000 ALTER TABLE `Landfill` ENABLE KEYS */: Running...
+[29, 12:39:27] /*!40000 ALTER TABLE `Landfill` ENABLE KEYS */: 0 row(s) affected
+[30, 12:39:27] UNLOCK TABLES: Running...
+[30, 12:39:27] UNLOCK TABLES: 0 row(s) affected
+[31, 12:39:27] DROP TABLE IF EXISTS `Materials`: Running...
+[31, 12:39:27] DROP TABLE IF EXISTS `Materials`: 0 row(s) affected
+[32, 12:39:27] CREATE TABLE `Materials` (
+  `material_id` varchar(255) NOT NULL DEFAULT '',
+  `material_name` varchar(255) DEFAULT NULL,
+  `method_to_break_down` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`material_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[32, 12:39:27] CREATE TABLE `Materials` (
+  `material_id` varchar(255) NOT NULL DEFAULT '',
+  `material_name` varchar(255) DEFAULT NULL,
+  `method_to_break_down` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`material_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[33, 12:39:27] LOCK TABLES `Materials` WRITE: Running...
+[33, 12:39:27] LOCK TABLES `Materials` WRITE: 0 row(s) affected
+[34, 12:39:27] /*!40000 ALTER TABLE `Materials` DISABLE KEYS */: Running...
+[34, 12:39:27] /*!40000 ALTER TABLE `Materials` DISABLE KEYS */: 0 row(s) affected
+[35, 12:39:27] INSERT INTO `Materials` (`material_id`, `material_name`, `method_to_break_down`)
+VALUES
+	('400','Plastic Bottles and Jugs','Rinse, crush, and replace bottle cap.'),
+	('401','Glass Jars','Rinse and detach lid from bottle. Labels can be left on.'),
+	('402','Aluminum Beverage Cans','Rinse. Labels can be left on.'),
+	('403','Cartons','Rinse. Remove and dispose of caps and straws in the trash.'),
+	('404','Aerosol Cans','Remove lids and tips.'),
+	('405','Paperboard','Unfold.'),
+	('406','Cardboard','Break down into 3-by-3 sections '),
+	('407','Batteries','Recycling Centers'),
+	('408','Plastic Bags','Recycling Centers'),
+	('409','Aluminum pie plates and food containers','Recycling Centers'),
+	('411','Aluminum cat food cans','Recycling Centers'),
+	('412','Plastic tubs such as butter and yogurt containers, storage containers','Recycling Centers'),
+	('413','Berry containers (clam shells)','Recycling Centers'),
+	('414','Any plastic that is not in the shape of a bottle/jug','Recycling Centers'),
+	('415','Christmas lights','Recycling Centers'),
+	('416','Light bulbs','Recycling Centers'),
+	('417','Yard waste or food','Recycling Centers'),
+	('418','Electronics','Recycling Centers.'),
+	('419','Polystyrene foam','Recycling Centers'),
+	('420','Hazardous waste','Recycling Centers'),
+	('421','Window glass, mirrors, drinking glasses','Recycling Centers'),
+	('422','Bound books','Recycling Centers'),
+	('423','Picnic ware- plastic cups and silverware, plates, napkins, etc','Recycling Centers'): Running...
+[35, 12:39:27] INSERT INTO `Materials` (`material_id`, `material_name`, `method_to_break_down`)
+VALUES
+	('400','Plastic Bottles and Jugs','Rinse, crush, and replace bottle cap.'),
+	('401','Glass Jars','Rinse and detach lid from bottle. Labels can be left on.'),
+	('402','Aluminum Beverage Cans','Rinse. Labels can be left on.'),
+	('403','Cartons','Rinse. Remove and dispose of caps and straws in the trash.'),
+	('404','Aerosol Cans','Remove lids and tips.'),
+	('405','Paperboard','Unfold.'),
+	('406','Cardboard','Break down into 3-by-3 sections '),
+	('407','Batteries','Recycling Centers'),
+	('408','Plastic Bags','Recycling Centers'),
+	('409','Aluminum pie plates and food containers','Recycling Centers'),
+	('411','Aluminum cat food cans','Recycling Centers'),
+	('412','Plastic tubs such as butter and yogurt containers, storage containers','Recycling Centers'),
+	('413','Berry containers (clam shells)','Recycling Centers'),
+	('414','Any plastic that is not in the shape of a bottle/jug','Recycling Centers'),
+	('415','Christmas lights','Recycling Centers'),
+	('416','Light bulbs','Recycling Centers'),
+	('417','Yard waste or food','Recycling Centers'),
+	('418','Electronics','Recycling Centers.'),
+	('419','Polystyrene foam','Recycling Centers'),
+	('420','Hazardous waste','Recycling Centers'),
+	('421','Window glass, mirrors, drinking glasses','Recycling Centers'),
+	('422','Bound books','Recycling Centers'),
+	('423','Picnic ware- plastic cups and silverware, plates, napkins, etc','Recycling Centers'): 23 row(s) affected
+Records: 23  Duplicates: 0  Warnings: 0
+[36, 12:39:27] /*!40000 ALTER TABLE `Materials` ENABLE KEYS */: Running...
+[36, 12:39:27] /*!40000 ALTER TABLE `Materials` ENABLE KEYS */: 0 row(s) affected
+[37, 12:39:27] UNLOCK TABLES: Running...
+[37, 12:39:27] UNLOCK TABLES: 0 row(s) affected
+[38, 12:39:27] SELECT COUNT(*) AS "How many materials" FROM Materials
+LIMIT 0, 1000
+: Running...
+[38, 12:39:27] SELECT COUNT(*) AS "How many materials" FROM Materials
+LIMIT 0, 1000
+: Fetching...
+[38, 12:39:27] SELECT COUNT(*) AS "How many materials" FROM Materials
+LIMIT 0, 1000
+: 1 row(s) returned
+[39, 12:39:27] DROP TABLE IF EXISTS `Policy`: Running...
+[39, 12:39:27] DROP TABLE IF EXISTS `Policy`: 0 row(s) affected
+[40, 12:39:27] CREATE TABLE `Policy` (
+  `policy` int(255) unsigned NOT NULL AUTO_INCREMENT,
+  `recycle_id` varchar(255) DEFAULT NULL,
+  `landfill_id` varchar(255) DEFAULT NULL,
+  `waste_center_id` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`policy`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[40, 12:39:27] CREATE TABLE `Policy` (
+  `policy` int(255) unsigned NOT NULL AUTO_INCREMENT,
+  `recycle_id` varchar(255) DEFAULT NULL,
+  `landfill_id` varchar(255) DEFAULT NULL,
+  `waste_center_id` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`policy`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[41, 12:39:27] LOCK TABLES `Policy` WRITE: Running...
+[41, 12:39:27] LOCK TABLES `Policy` WRITE: 0 row(s) affected
+[42, 12:39:27] /*!40000 ALTER TABLE `Policy` DISABLE KEYS */: Running...
+[42, 12:39:27] /*!40000 ALTER TABLE `Policy` DISABLE KEYS */: 0 row(s) affected
+[43, 12:39:27] INSERT INTO `Policy` (`policy`, `recycle_id`, `landfill_id`, `waste_center_id`)
+VALUES
+	(1,'100','200','300'),
+	(2,'101',NULL,NULL): Running...
+[43, 12:39:27] INSERT INTO `Policy` (`policy`, `recycle_id`, `landfill_id`, `waste_center_id`)
+VALUES
+	(1,'100','200','300'),
+	(2,'101',NULL,NULL): 2 row(s) affected
+Records: 2  Duplicates: 0  Warnings: 0
+[44, 12:39:27] /*!40000 ALTER TABLE `Policy` ENABLE KEYS */: Running...
+[44, 12:39:27] /*!40000 ALTER TABLE `Policy` ENABLE KEYS */: 0 row(s) affected
+[45, 12:39:27] UNLOCK TABLES: Running...
+[45, 12:39:27] UNLOCK TABLES: 0 row(s) affected
+[46, 12:39:27] DROP TABLE IF EXISTS `Recyclables`: Running...
+[46, 12:39:27] DROP TABLE IF EXISTS `Recyclables`: 0 row(s) affected
+[47, 12:39:27] CREATE TABLE `Recyclables` (
+  `recycle_id` varchar(255) NOT NULL DEFAULT '',
+  `R1_id` int(11) DEFAULT NULL,
+  `R2_id` int(11) DEFAULT NULL,
+  `R3_id` int(11) DEFAULT NULL,
+  `R4_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`recycle_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[47, 12:39:27] CREATE TABLE `Recyclables` (
+  `recycle_id` varchar(255) NOT NULL DEFAULT '',
+  `R1_id` int(11) DEFAULT NULL,
+  `R2_id` int(11) DEFAULT NULL,
+  `R3_id` int(11) DEFAULT NULL,
+  `R4_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`recycle_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[48, 12:39:27] LOCK TABLES `Recyclables` WRITE: Running...
+[48, 12:39:27] LOCK TABLES `Recyclables` WRITE: 0 row(s) affected
+[49, 12:39:27] /*!40000 ALTER TABLE `Recyclables` DISABLE KEYS */: Running...
+[49, 12:39:27] /*!40000 ALTER TABLE `Recyclables` DISABLE KEYS */: 0 row(s) affected
+[50, 12:39:27] INSERT INTO `Recyclables` (`recycle_id`, `R1_id`, `R2_id`, `R3_id`, `R4_id`)
+VALUES
+	('100',400,401,402,403): Running...
+[50, 12:39:27] INSERT INTO `Recyclables` (`recycle_id`, `R1_id`, `R2_id`, `R3_id`, `R4_id`)
+VALUES
+	('100',400,401,402,403): 1 row(s) affected
+[51, 12:39:27] /*!40000 ALTER TABLE `Recyclables` ENABLE KEYS */: Running...
+[51, 12:39:27] /*!40000 ALTER TABLE `Recyclables` ENABLE KEYS */: 0 row(s) affected
+[52, 12:39:27] UNLOCK TABLES: Running...
+[52, 12:39:27] UNLOCK TABLES: 0 row(s) affected
+[53, 12:39:27] DROP TABLE IF EXISTS `Waste_Center`: Running...
+[53, 12:39:27] DROP TABLE IF EXISTS `Waste_Center`: 0 row(s) affected
+[54, 12:39:27] CREATE TABLE `Waste_Center` (
+  `waste_center_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `WC1_id` int(11) DEFAULT NULL,
+  `WC2_id` int(11) DEFAULT NULL,
+  `WC3_id` int(11) DEFAULT NULL,
+  `WC4_id` int(11) DEFAULT NULL,
+  `WC5_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`waste_center_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[54, 12:39:27] CREATE TABLE `Waste_Center` (
+  `waste_center_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `WC1_id` int(11) DEFAULT NULL,
+  `WC2_id` int(11) DEFAULT NULL,
+  `WC3_id` int(11) DEFAULT NULL,
+  `WC4_id` int(11) DEFAULT NULL,
+  `WC5_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`waste_center_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[55, 12:39:27] LOCK TABLES `Waste_Center` WRITE: Running...
+[55, 12:39:27] LOCK TABLES `Waste_Center` WRITE: 0 row(s) affected
+[56, 12:39:27] /*!40000 ALTER TABLE `Waste_Center` DISABLE KEYS */: Running...
+[56, 12:39:27] /*!40000 ALTER TABLE `Waste_Center` DISABLE KEYS */: 0 row(s) affected
+[57, 12:39:27] INSERT INTO `Waste_Center` (`waste_center_id`, `WC1_id`, `WC2_id`, `WC3_id`, `WC4_id`, `WC5_id`)
+VALUES
+	(300,NULL,NULL,NULL,NULL,NULL): Running...
+[57, 12:39:27] INSERT INTO `Waste_Center` (`waste_center_id`, `WC1_id`, `WC2_id`, `WC3_id`, `WC4_id`, `WC5_id`)
+VALUES
+	(300,NULL,NULL,NULL,NULL,NULL): 1 row(s) affected
+[58, 12:39:27] /*!40000 ALTER TABLE `Waste_Center` ENABLE KEYS */: Running...
+[58, 12:39:27] /*!40000 ALTER TABLE `Waste_Center` ENABLE KEYS */: 0 row(s) affected
+[59, 12:39:27] UNLOCK TABLES: Running...
+[59, 12:39:27] UNLOCK TABLES: 0 row(s) affected
+[60, 12:39:27] /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */: Running...
+[60, 12:39:27] /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */: 0 row(s) affected
+[61, 12:39:27] /*!40101 SET SQL_MODE=@OLD_SQL_MODE */: Running...
+[61, 12:39:27] /*!40101 SET SQL_MODE=@OLD_SQL_MODE */: 0 row(s) affected
+[62, 12:39:27] /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */: Running...
+[62, 12:39:27] /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */: 0 row(s) affected
+[63, 12:39:27] /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */: Running...
+[63, 12:39:27] /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */: 0 row(s) affected
+[64, 12:39:28] /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */: Running...
+[64, 12:39:28] /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */: 0 row(s) affected
+[65, 12:39:28] /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */: Running...
+[65, 12:39:28] /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */: 0 row(s) affected
+[1, 16:31:12] Could not connect, server may not be running.: Can't connect to MySQL server on 'localhost' (10061)
+[1, 23:55:28] Could not connect, server may not be running.: Can't connect to MySQL server on 'localhost' (10061)
+[1, 15:28:12] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[1, 15:28:12] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: 0 row(s) affected
+[2, 15:28:12] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: Running...
+[2, 15:28:12] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: 0 row(s) affected
+[3, 15:28:12] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: Running...
+[3, 15:28:12] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: 0 row(s) affected
+[4, 15:28:12] /*!40101 SET NAMES utf8 */: Running...
+[4, 15:28:12] /*!40101 SET NAMES utf8 */: 0 row(s) affected
+[5, 15:28:12] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: Running...
+[5, 15:28:12] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: 0 row(s) affected
+[6, 15:28:12] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: Running...
+[6, 15:28:12] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: 0 row(s) affected
+[7, 15:28:12] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: Running...
+[7, 15:28:12] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: 0 row(s) affected
+[8, 15:28:12] DROP TABLE IF EXISTS `Area`: Running...
+[8, 15:28:12] DROP TABLE IF EXISTS `Area`: 0 row(s) affected
+[9, 15:28:12] CREATE TABLE `Area` (
+  `zipcode` int(255) unsigned NOT NULL AUTO_INCREMENT,
+  `policy` int(11) DEFAULT NULL,
+  PRIMARY KEY (`zipcode`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[9, 15:28:12] CREATE TABLE `Area` (
+  `zipcode` int(255) unsigned NOT NULL AUTO_INCREMENT,
+  `policy` int(11) DEFAULT NULL,
+  PRIMARY KEY (`zipcode`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[10, 15:28:12] LOCK TABLES `Area` WRITE: Running...
+[10, 15:28:12] LOCK TABLES `Area` WRITE: 0 row(s) affected
+[11, 15:28:12] /*!40000 ALTER TABLE `Area` DISABLE KEYS */: Running...
+[11, 15:28:12] /*!40000 ALTER TABLE `Area` DISABLE KEYS */: 0 row(s) affected
+[12, 15:28:12] INSERT INTO `Area` (`zipcode`, `policy`)
+VALUES
+	(45201,1),
+  (45202,1),
+  (45203,1),
+  (45204,1),
+  (45205,1),
+  (45206,1),
+  (45207,1),
+  (45208,1),
+  (45209,1),
+  (45211,1),
+  (45212,1),
+  (45213,1),
+  (45214,1),
+  (45215,1),
+  (45216,1),
+  (45217,1),
+  (45218,1),
+  (45219,1),
+  (45220,1),
+  (45221,1),
+  (45222,1),
+  (45223,1),
+  (45224,1),
+  (45225,1),
+  (45226,1),
+  (45227,1),
+  (45229,1), 
+  (45230,1),
+  (45231,1),
+  (45232,1),
+  (45233,1),
+  (45234,1),
+  (45235,1),
+  (45236,1),
+  (45237,1),
+  (45238,1),
+  (45239,1),
+  (45240,1),
+  (45241,1),
+  (45242,1),
+  (45243,1),
+  (45244,1),
+  (45245,1),
+  (45246,1),
+  (45247,1),
+  (45248,1),
+  (45249,1),
+  (45250,1),
+  (45251,1),
+  (45252,1),
+ (45253,1),
+ (45254,1),
+ (45255,1),
+ (45258,1),
+ (45262,1),
+ (45263,1),
+ (45264,1),
+ (45267,1),
+ (45268,1),
+ (45269,1),
+ (45270,1),
+ (45271,1),
+ (45273,1),
+ (45274,1),
+ (45275,1),
+ (45277,1),
+ (45280,1),
+ (45296,1),
+ (45298,1),
+ (45299,1),
+ (45999,1): Running...
+[12, 15:28:12] INSERT INTO `Area` (`zipcode`, `policy`)
+VALUES
+	(45201,1),
+  (45202,1),
+  (45203,1),
+  (45204,1),
+  (45205,1),
+  (45206,1),
+  (45207,1),
+  (45208,1),
+  (45209,1),
+  (45211,1),
+  (45212,1),
+  (45213,1),
+  (45214,1),
+  (45215,1),
+  (45216,1),
+  (45217,1),
+  (45218,1),
+  (45219,1),
+  (45220,1),
+  (45221,1),
+  (45222,1),
+  (45223,1),
+  (45224,1),
+  (45225,1),
+  (45226,1),
+  (45227,1),
+  (45229,1), 
+  (45230,1),
+  (45231,1),
+  (45232,1),
+  (45233,1),
+  (45234,1),
+  (45235,1),
+  (45236,1),
+  (45237,1),
+  (45238,1),
+  (45239,1),
+  (45240,1),
+  (45241,1),
+  (45242,1),
+  (45243,1),
+  (45244,1),
+  (45245,1),
+  (45246,1),
+  (45247,1),
+  (45248,1),
+  (45249,1),
+  (45250,1),
+  (45251,1),
+  (45252,1),
+ (45253,1),
+ (45254,1),
+ (45255,1),
+ (45258,1),
+ (45262,1),
+ (45263,1),
+ (45264,1),
+ (45267,1),
+ (45268,1),
+ (45269,1),
+ (45270,1),
+ (45271,1),
+ (45273,1),
+ (45274,1),
+ (45275,1),
+ (45277,1),
+ (45280,1),
+ (45296,1),
+ (45298,1),
+ (45299,1),
+ (45999,1): 71 row(s) affected
+Records: 71  Duplicates: 0  Warnings: 0
+[13, 15:28:12] /*!40000 ALTER TABLE `Area` ENABLE KEYS */: Running...
+[13, 15:28:12] /*!40000 ALTER TABLE `Area` ENABLE KEYS */: 0 row(s) affected
+[14, 15:28:12] UNLOCK TABLES: Running...
+[14, 15:28:12] UNLOCK TABLES: 0 row(s) affected
+[15, 15:28:12] SELECT MAX(policy) AS "How many policies" FROM Area
+LIMIT 0, 1000
+: Running...
+[15, 15:28:12] SELECT MAX(policy) AS "How many policies" FROM Area
+LIMIT 0, 1000
+: Fetching...
+[15, 15:28:12] SELECT MAX(policy) AS "How many policies" FROM Area
+LIMIT 0, 1000
+: 1 row(s) returned
+[16, 15:28:12] DROP TABLE IF EXISTS `Landfill`: Running...
+[16, 15:28:12] DROP TABLE IF EXISTS `Landfill`: 0 row(s) affected
+[17, 15:28:12] CREATE TABLE `Landfill` (
+  `landfill_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `L1_id` int(11) DEFAULT NULL,
+  `L2_id` int(11) DEFAULT NULL,
+  `L3_id` int(11) DEFAULT NULL,
+  `L4_id` int(11) DEFAULT NULL,
+  `L5_id` int(11) DEFAULT NULL,
+  PRIMARY KEY # ************************************************************
+# Sequel Pro SQL dump
+# Version 4541
+#
+# http://www.sequelpro.com/
+# https://github.com/sequelpro/sequelpro
+#
+# Host: 127.0.0.1 (MySQL 5.7.23)
+# Database: RecyclePedia
+# Generation Time: 2018-11-16 01:41:23 +0000
+# ************************************************************
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[17, 15:28:12] CREATE TABLE `Landfill` (
+  `landfill_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `L1_id` int(11) DEFAULT NULL,
+  `L2_id` int(11) DEFAULT NULL,
+  `L3_id` int(11) DEFAULT NULL,
+  `L4_id` int(11) DEFAULT NULL,
+  `L5_id` int(11) DEFAULT NULL,
+  PRIMARY KEY # ************************************************************
+# Sequel Pro SQL dump
+# Version 4541
+#
+# http://www.sequelpro.com/
+# https://github.com/sequelpro/sequelpro
+#
+# Host: 127.0.0.1 (MySQL 5.7.23)
+# Database: RecyclePedia
+# Generation Time: 2018-11-16 01:41:23 +0000
+# ************************************************************
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */' at line 21
+[1, 15:29:28] Apply changes to new_schema: Applying object changes ...
+[1, 15:29:31] Apply changes to new_schema: 
+[2, 15:29:54] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[2, 15:29:54] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: 0 row(s) affected
+[3, 15:29:54] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: Running...
+[3, 15:29:54] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: 0 row(s) affected
+[4, 15:29:54] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: Running...
+[4, 15:29:54] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: 0 row(s) affected
+[5, 15:29:54] /*!40101 SET NAMES utf8 */: Running...
+[5, 15:29:54] /*!40101 SET NAMES utf8 */: 0 row(s) affected
+[6, 15:29:54] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: Running...
+[6, 15:29:54] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: 0 row(s) affected
+[7, 15:29:54] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: Running...
+[7, 15:29:54] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: 0 row(s) affected
+[8, 15:29:54] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: Running...
+[8, 15:29:54] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: 0 row(s) affected
+[9, 15:29:54] DROP TABLE IF EXISTS `Area`: Running...
+[9, 15:29:54] DROP TABLE IF EXISTS `Area`: 0 row(s) affected
+[10, 15:29:54] CREATE TABLE `Area` (
+  `zipcode` int(255) unsigned NOT NULL AUTO_INCREMENT,
+  `policy` int(11) DEFAULT NULL,
+  PRIMARY KEY (`zipcode`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[10, 15:29:54] CREATE TABLE `Area` (
+  `zipcode` int(255) unsigned NOT NULL AUTO_INCREMENT,
+  `policy` int(11) DEFAULT NULL,
+  PRIMARY KEY (`zipcode`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[11, 15:29:54] LOCK TABLES `Area` WRITE: Running...
+[11, 15:29:54] LOCK TABLES `Area` WRITE: 0 row(s) affected
+[12, 15:29:54] /*!40000 ALTER TABLE `Area` DISABLE KEYS */: Running...
+[12, 15:29:54] /*!40000 ALTER TABLE `Area` DISABLE KEYS */: 0 row(s) affected
+[13, 15:29:54] INSERT INTO `Area` (`zipcode`, `policy`)
+VALUES
+	(45201,1),
+  (45202,1),
+  (45203,1),
+  (45204,1),
+  (45205,1),
+  (45206,1),
+  (45207,1),
+  (45208,1),
+  (45209,1),
+  (45211,1),
+  (45212,1),
+  (45213,1),
+  (45214,1),
+  (45215,1),
+  (45216,1),
+  (45217,1),
+  (45218,1),
+  (45219,1),
+  (45220,1),
+  (45221,1),
+  (45222,1),
+  (45223,1),
+  (45224,1),
+  (45225,1),
+  (45226,1),
+  (45227,1),
+  (45229,1), 
+  (45230,1),
+  (45231,1),
+  (45232,1),
+  (45233,1),
+  (45234,1),
+  (45235,1),
+  (45236,1),
+  (45237,1),
+  (45238,1),
+  (45239,1),
+  (45240,1),
+  (45241,1),
+  (45242,1),
+  (45243,1),
+  (45244,1),
+  (45245,1),
+  (45246,1),
+  (45247,1),
+  (45248,1),
+  (45249,1),
+  (45250,1),
+  (45251,1),
+  (45252,1),
+ (45253,1),
+ (45254,1),
+ (45255,1),
+ (45258,1),
+ (45262,1),
+ (45263,1),
+ (45264,1),
+ (45267,1),
+ (45268,1),
+ (45269,1),
+ (45270,1),
+ (45271,1),
+ (45273,1),
+ (45274,1),
+ (45275,1),
+ (45277,1),
+ (45280,1),
+ (45296,1),
+ (45298,1),
+ (45299,1),
+ (45999,1): Running...
+[13, 15:29:54] INSERT INTO `Area` (`zipcode`, `policy`)
+VALUES
+	(45201,1),
+  (45202,1),
+  (45203,1),
+  (45204,1),
+  (45205,1),
+  (45206,1),
+  (45207,1),
+  (45208,1),
+  (45209,1),
+  (45211,1),
+  (45212,1),
+  (45213,1),
+  (45214,1),
+  (45215,1),
+  (45216,1),
+  (45217,1),
+  (45218,1),
+  (45219,1),
+  (45220,1),
+  (45221,1),
+  (45222,1),
+  (45223,1),
+  (45224,1),
+  (45225,1),
+  (45226,1),
+  (45227,1),
+  (45229,1), 
+  (45230,1),
+  (45231,1),
+  (45232,1),
+  (45233,1),
+  (45234,1),
+  (45235,1),
+  (45236,1),
+  (45237,1),
+  (45238,1),
+  (45239,1),
+  (45240,1),
+  (45241,1),
+  (45242,1),
+  (45243,1),
+  (45244,1),
+  (45245,1),
+  (45246,1),
+  (45247,1),
+  (45248,1),
+  (45249,1),
+  (45250,1),
+  (45251,1),
+  (45252,1),
+ (45253,1),
+ (45254,1),
+ (45255,1),
+ (45258,1),
+ (45262,1),
+ (45263,1),
+ (45264,1),
+ (45267,1),
+ (45268,1),
+ (45269,1),
+ (45270,1),
+ (45271,1),
+ (45273,1),
+ (45274,1),
+ (45275,1),
+ (45277,1),
+ (45280,1),
+ (45296,1),
+ (45298,1),
+ (45299,1),
+ (45999,1): 71 row(s) affected
+Records: 71  Duplicates: 0  Warnings: 0
+[14, 15:29:54] /*!40000 ALTER TABLE `Area` ENABLE KEYS */: Running...
+[14, 15:29:54] /*!40000 ALTER TABLE `Area` ENABLE KEYS */: 0 row(s) affected
+[15, 15:29:54] UNLOCK TABLES: Running...
+[15, 15:29:54] UNLOCK TABLES: 0 row(s) affected
+[16, 15:29:54] SELECT MAX(policy) AS "How many policies" FROM Area
+LIMIT 0, 1000
+: Running...
+[16, 15:29:54] SELECT MAX(policy) AS "How many policies" FROM Area
+LIMIT 0, 1000
+: Fetching...
+[16, 15:29:54] SELECT MAX(policy) AS "How many policies" FROM Area
+LIMIT 0, 1000
+: 1 row(s) returned
+[17, 15:29:54] DROP TABLE IF EXISTS `Landfill`: Running...
+[17, 15:29:54] DROP TABLE IF EXISTS `Landfill`: 0 row(s) affected
+[18, 15:29:54] CREATE TABLE `Landfill` (
+  `landfill_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `L1_id` int(11) DEFAULT NULL,
+  `L2_id` int(11) DEFAULT NULL,
+  `L3_id` int(11) DEFAULT NULL,
+  `L4_id` int(11) DEFAULT NULL,
+  `L5_id` int(11) DEFAULT NULL,
+  PRIMARY KEY # ************************************************************
+# Sequel Pro SQL dump
+# Version 4541
+#
+# http://www.sequelpro.com/
+# https://github.com/sequelpro/sequelpro
+#
+# Host: 127.0.0.1 (MySQL 5.7.23)
+# Database: RecyclePedia
+# Generation Time: 2018-11-16 01:41:23 +0000
+# ************************************************************
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[18, 15:29:54] CREATE TABLE `Landfill` (
+  `landfill_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `L1_id` int(11) DEFAULT NULL,
+  `L2_id` int(11) DEFAULT NULL,
+  `L3_id` int(11) DEFAULT NULL,
+  `L4_id` int(11) DEFAULT NULL,
+  `L5_id` int(11) DEFAULT NULL,
+  PRIMARY KEY # ************************************************************
+# Sequel Pro SQL dump
+# Version 4541
+#
+# http://www.sequelpro.com/
+# https://github.com/sequelpro/sequelpro
+#
+# Host: 127.0.0.1 (MySQL 5.7.23)
+# Database: RecyclePedia
+# Generation Time: 2018-11-16 01:41:23 +0000
+# ************************************************************
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */' at line 21
+[1, 15:32:16] DROP DATABASE `recyclepedia`: Running...
+[1, 15:32:16] DROP DATABASE `recyclepedia`: 5 row(s) affected
+[2, 15:32:21] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[2, 15:32:21] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: 0 row(s) affected
+[3, 15:32:21] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: Running...
+[3, 15:32:21] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: 0 row(s) affected
+[4, 15:32:21] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: Running...
+[4, 15:32:21] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: 0 row(s) affected
+[5, 15:32:21] /*!40101 SET NAMES utf8 */: Running...
+[5, 15:32:21] /*!40101 SET NAMES utf8 */: 0 row(s) affected
+[6, 15:32:21] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: Running...
+[6, 15:32:21] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: 0 row(s) affected
+[7, 15:32:21] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: Running...
+[7, 15:32:21] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: 0 row(s) affected
+[8, 15:32:21] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: Running...
+[8, 15:32:21] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: 0 row(s) affected
+[9, 15:32:21] DROP TABLE IF EXISTS `Area`: Running...
+[9, 15:32:21] DROP TABLE IF EXISTS `Area`: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[10, 15:32:33] Apply changes to recyclepedia: Applying object changes ...
+[10, 15:32:35] Applying changes to recyclepedia...: 
+[10, 15:32:35] : Changes applied to recyclepedia
+[10, 15:32:36] Apply changes to recyclepedia: Changes applied
+[11, 15:32:58] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[11, 15:32:58] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: 0 row(s) affected
+[12, 15:32:58] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: Running...
+[12, 15:32:58] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: 0 row(s) affected
+[13, 15:32:58] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: Running...
+[13, 15:32:58] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: 0 row(s) affected
+[14, 15:32:58] /*!40101 SET NAMES utf8 */: Running...
+[14, 15:32:58] /*!40101 SET NAMES utf8 */: 0 row(s) affected
+[15, 15:32:58] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: Running...
+[15, 15:32:58] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: 0 row(s) affected
+[16, 15:32:58] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: Running...
+[16, 15:32:58] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: 0 row(s) affected
+[17, 15:32:58] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: Running...
+[17, 15:32:58] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: 0 row(s) affected
+[18, 15:32:58] DROP TABLE IF EXISTS `Area`: Running...
+[18, 15:32:58] DROP TABLE IF EXISTS `Area`: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[19, 15:33:12] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[19, 15:33:12] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: 0 row(s) affected
+[20, 15:33:12] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: Running...
+[20, 15:33:12] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: 0 row(s) affected
+[21, 15:33:12] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: Running...
+[21, 15:33:12] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: 0 row(s) affected
+[22, 15:33:12] /*!40101 SET NAMES utf8 */: Running...
+[22, 15:33:12] /*!40101 SET NAMES utf8 */: 0 row(s) affected
+[23, 15:33:12] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: Running...
+[23, 15:33:12] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: 0 row(s) affected
+[24, 15:33:12] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: Running...
+[24, 15:33:12] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: 0 row(s) affected
+[25, 15:33:12] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: Running...
+[25, 15:33:12] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: 0 row(s) affected
+[26, 15:33:12] DROP TABLE IF EXISTS `Area`: Running...
+[26, 15:33:12] DROP TABLE IF EXISTS `Area`: 0 row(s) affected
+[27, 15:33:12] CREATE TABLE `Area` (
+  `zipcode` int(255) unsigned NOT NULL AUTO_INCREMENT,
+  `policy` int(11) DEFAULT NULL,
+  PRIMARY KEY (`zipcode`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[27, 15:33:12] CREATE TABLE `Area` (
+  `zipcode` int(255) unsigned NOT NULL AUTO_INCREMENT,
+  `policy` int(11) DEFAULT NULL,
+  PRIMARY KEY (`zipcode`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[28, 15:33:12] LOCK TABLES `Area` WRITE: Running...
+[28, 15:33:12] LOCK TABLES `Area` WRITE: 0 row(s) affected
+[29, 15:33:12] /*!40000 ALTER TABLE `Area` DISABLE KEYS */: Running...
+[29, 15:33:12] /*!40000 ALTER TABLE `Area` DISABLE KEYS */: 0 row(s) affected
+[30, 15:33:12] INSERT INTO `Area` (`zipcode`, `policy`)
+VALUES
+	(45201,1),
+  (45202,1),
+  (45203,1),
+  (45204,1),
+  (45205,1),
+  (45206,1),
+  (45207,1),
+  (45208,1),
+  (45209,1),
+  (45211,1),
+  (45212,1),
+  (45213,1),
+  (45214,1),
+  (45215,1),
+  (45216,1),
+  (45217,1),
+  (45218,1),
+  (45219,1),
+  (45220,1),
+  (45221,1),
+  (45222,1),
+  (45223,1),
+  (45224,1),
+  (45225,1),
+  (45226,1),
+  (45227,1),
+  (45229,1), 
+  (45230,1),
+  (45231,1),
+  (45232,1),
+  (45233,1),
+  (45234,1),
+  (45235,1),
+  (45236,1),
+  (45237,1),
+  (45238,1),
+  (45239,1),
+  (45240,1),
+  (45241,1),
+  (45242,1),
+  (45243,1),
+  (45244,1),
+  (45245,1),
+  (45246,1),
+  (45247,1),
+  (45248,1),
+  (45249,1),
+  (45250,1),
+  (45251,1),
+  (45252,1),
+ (45253,1),
+ (45254,1),
+ (45255,1),
+ (45258,1),
+ (45262,1),
+ (45263,1),
+ (45264,1),
+ (45267,1),
+ (45268,1),
+ (45269,1),
+ (45270,1),
+ (45271,1),
+ (45273,1),
+ (45274,1),
+ (45275,1),
+ (45277,1),
+ (45280,1),
+ (45296,1),
+ (45298,1),
+ (45299,1),
+ (45999,1): Running...
+[30, 15:33:12] INSERT INTO `Area` (`zipcode`, `policy`)
+VALUES
+	(45201,1),
+  (45202,1),
+  (45203,1),
+  (45204,1),
+  (45205,1),
+  (45206,1),
+  (45207,1),
+  (45208,1),
+  (45209,1),
+  (45211,1),
+  (45212,1),
+  (45213,1),
+  (45214,1),
+  (45215,1),
+  (45216,1),
+  (45217,1),
+  (45218,1),
+  (45219,1),
+  (45220,1),
+  (45221,1),
+  (45222,1),
+  (45223,1),
+  (45224,1),
+  (45225,1),
+  (45226,1),
+  (45227,1),
+  (45229,1), 
+  (45230,1),
+  (45231,1),
+  (45232,1),
+  (45233,1),
+  (45234,1),
+  (45235,1),
+  (45236,1),
+  (45237,1),
+  (45238,1),
+  (45239,1),
+  (45240,1),
+  (45241,1),
+  (45242,1),
+  (45243,1),
+  (45244,1),
+  (45245,1),
+  (45246,1),
+  (45247,1),
+  (45248,1),
+  (45249,1),
+  (45250,1),
+  (45251,1),
+  (45252,1),
+ (45253,1),
+ (45254,1),
+ (45255,1),
+ (45258,1),
+ (45262,1),
+ (45263,1),
+ (45264,1),
+ (45267,1),
+ (45268,1),
+ (45269,1),
+ (45270,1),
+ (45271,1),
+ (45273,1),
+ (45274,1),
+ (45275,1),
+ (45277,1),
+ (45280,1),
+ (45296,1),
+ (45298,1),
+ (45299,1),
+ (45999,1): 71 row(s) affected
+Records: 71  Duplicates: 0  Warnings: 0
+[31, 15:33:12] /*!40000 ALTER TABLE `Area` ENABLE KEYS */: Running...
+[31, 15:33:12] /*!40000 ALTER TABLE `Area` ENABLE KEYS */: 0 row(s) affected
+[32, 15:33:12] UNLOCK TABLES: Running...
+[32, 15:33:12] UNLOCK TABLES: 0 row(s) affected
+[33, 15:33:12] SELECT MAX(policy) AS "How many policies" FROM Area
+LIMIT 0, 1000
+: Running...
+[33, 15:33:12] SELECT MAX(policy) AS "How many policies" FROM Area
+LIMIT 0, 1000
+: Fetching...
+[33, 15:33:12] SELECT MAX(policy) AS "How many policies" FROM Area
+LIMIT 0, 1000
+: 1 row(s) returned
+[34, 15:33:12] DROP TABLE IF EXISTS `Landfill`: Running...
+[34, 15:33:12] DROP TABLE IF EXISTS `Landfill`: 0 row(s) affected
+[35, 15:33:12] CREATE TABLE `Landfill` (
+  `landfill_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `L1_id` int(11) DEFAULT NULL,
+  `L2_id` int(11) DEFAULT NULL,
+  `L3_id` int(11) DEFAULT NULL,
+  `L4_id` int(11) DEFAULT NULL,
+  `L5_id` int(11) DEFAULT NULL,
+  PRIMARY KEY # ************************************************************
+# Sequel Pro SQL dump
+# Version 4541
+#
+# http://www.sequelpro.com/
+# https://github.com/sequelpro/sequelpro
+#
+# Host: 127.0.0.1 (MySQL 5.7.23)
+# Database: RecyclePedia
+# Generation Time: 2018-11-16 01:41:23 +0000
+# ************************************************************
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[35, 15:33:12] CREATE TABLE `Landfill` (
+  `landfill_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `L1_id` int(11) DEFAULT NULL,
+  `L2_id` int(11) DEFAULT NULL,
+  `L3_id` int(11) DEFAULT NULL,
+  `L4_id` int(11) DEFAULT NULL,
+  `L5_id` int(11) DEFAULT NULL,
+  PRIMARY KEY # ************************************************************
+# Sequel Pro SQL dump
+# Version 4541
+#
+# http://www.sequelpro.com/
+# https://github.com/sequelpro/sequelpro
+#
+# Host: 127.0.0.1 (MySQL 5.7.23)
+# Database: RecyclePedia
+# Generation Time: 2018-11-16 01:41:23 +0000
+# ************************************************************
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */' at line 21
+[36, 15:33:46] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[36, 15:33:46] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: 0 row(s) affected
+[37, 15:33:46] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: Running...
+[37, 15:33:46] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: 0 row(s) affected
+[38, 15:33:46] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: Running...
+[38, 15:33:46] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: 0 row(s) affected
+[39, 15:33:46] /*!40101 SET NAMES utf8 */: Running...
+[39, 15:33:46] /*!40101 SET NAMES utf8 */: 0 row(s) affected
+[40, 15:33:46] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: Running...
+[40, 15:33:46] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: 0 row(s) affected
+[41, 15:33:46] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: Running...
+[41, 15:33:46] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: 0 row(s) affected
+[42, 15:33:46] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: Running...
+[42, 15:33:46] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: 0 row(s) affected
+[43, 15:33:46] DROP TABLE IF EXISTS `Area`: Running...
+[43, 15:33:46] DROP TABLE IF EXISTS `Area`: 0 row(s) affected
+[44, 15:33:46] CREATE TABLE `Area` (
+  `zipcode` int(255) unsigned NOT NULL AUTO_INCREMENT,
+  `policy` int(11) DEFAULT NULL,
+  PRIMARY KEY (`zipcode`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[44, 15:33:46] CREATE TABLE `Area` (
+  `zipcode` int(255) unsigned NOT NULL AUTO_INCREMENT,
+  `policy` int(11) DEFAULT NULL,
+  PRIMARY KEY (`zipcode`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[45, 15:33:46] LOCK TABLES `Area` WRITE: Running...
+[45, 15:33:47] LOCK TABLES `Area` WRITE: 0 row(s) affected
+[46, 15:33:47] /*!40000 ALTER TABLE `Area` DISABLE KEYS */: Running...
+[46, 15:33:47] /*!40000 ALTER TABLE `Area` DISABLE KEYS */: 0 row(s) affected
+[47, 15:33:47] INSERT INTO `Area` (`zipcode`, `policy`)
+VALUES
+	(45201,1),
+  (45202,1),
+  (45203,1),
+  (45204,1),
+  (45205,1),
+  (45206,1),
+  (45207,1),
+  (45208,1),
+  (45209,1),
+  (45211,1),
+  (45212,1),
+  (45213,1),
+  (45214,1),
+  (45215,1),
+  (45216,1),
+  (45217,1),
+  (45218,1),
+  (45219,1),
+  (45220,1),
+  (45221,1),
+  (45222,1),
+  (45223,1),
+  (45224,1),
+  (45225,1),
+  (45226,1),
+  (45227,1),
+  (45229,1), 
+  (45230,1),
+  (45231,1),
+  (45232,1),
+  (45233,1),
+  (45234,1),
+  (45235,1),
+  (45236,1),
+  (45237,1),
+  (45238,1),
+  (45239,1),
+  (45240,1),
+  (45241,1),
+  (45242,1),
+  (45243,1),
+  (45244,1),
+  (45245,1),
+  (45246,1),
+  (45247,1),
+  (45248,1),
+  (45249,1),
+  (45250,1),
+  (45251,1),
+  (45252,1),
+ (45253,1),
+ (45254,1),
+ (45255,1),
+ (45258,1),
+ (45262,1),
+ (45263,1),
+ (45264,1),
+ (45267,1),
+ (45268,1),
+ (45269,1),
+ (45270,1),
+ (45271,1),
+ (45273,1),
+ (45274,1),
+ (45275,1),
+ (45277,1),
+ (45280,1),
+ (45296,1),
+ (45298,1),
+ (45299,1),
+ (45999,1): Running...
+[47, 15:33:47] INSERT INTO `Area` (`zipcode`, `policy`)
+VALUES
+	(45201,1),
+  (45202,1),
+  (45203,1),
+  (45204,1),
+  (45205,1),
+  (45206,1),
+  (45207,1),
+  (45208,1),
+  (45209,1),
+  (45211,1),
+  (45212,1),
+  (45213,1),
+  (45214,1),
+  (45215,1),
+  (45216,1),
+  (45217,1),
+  (45218,1),
+  (45219,1),
+  (45220,1),
+  (45221,1),
+  (45222,1),
+  (45223,1),
+  (45224,1),
+  (45225,1),
+  (45226,1),
+  (45227,1),
+  (45229,1), 
+  (45230,1),
+  (45231,1),
+  (45232,1),
+  (45233,1),
+  (45234,1),
+  (45235,1),
+  (45236,1),
+  (45237,1),
+  (45238,1),
+  (45239,1),
+  (45240,1),
+  (45241,1),
+  (45242,1),
+  (45243,1),
+  (45244,1),
+  (45245,1),
+  (45246,1),
+  (45247,1),
+  (45248,1),
+  (45249,1),
+  (45250,1),
+  (45251,1),
+  (45252,1),
+ (45253,1),
+ (45254,1),
+ (45255,1),
+ (45258,1),
+ (45262,1),
+ (45263,1),
+ (45264,1),
+ (45267,1),
+ (45268,1),
+ (45269,1),
+ (45270,1),
+ (45271,1),
+ (45273,1),
+ (45274,1),
+ (45275,1),
+ (45277,1),
+ (45280,1),
+ (45296,1),
+ (45298,1),
+ (45299,1),
+ (45999,1): 71 row(s) affected
+Records: 71  Duplicates: 0  Warnings: 0
+[48, 15:33:47] /*!40000 ALTER TABLE `Area` ENABLE KEYS */: Running...
+[48, 15:33:47] /*!40000 ALTER TABLE `Area` ENABLE KEYS */: 0 row(s) affected
+[49, 15:33:47] UNLOCK TABLES: Running...
+[49, 15:33:47] UNLOCK TABLES: 0 row(s) affected
+[50, 15:33:47] SELECT MAX(policy) AS "How many policies" FROM Area
+LIMIT 0, 1000
+: Running...
+[50, 15:33:47] SELECT MAX(policy) AS "How many policies" FROM Area
+LIMIT 0, 1000
+: Fetching...
+[50, 15:33:47] SELECT MAX(policy) AS "How many policies" FROM Area
+LIMIT 0, 1000
+: 1 row(s) returned
+[51, 15:33:47] DROP TABLE IF EXISTS `Landfill`: Running...
+[51, 15:33:47] DROP TABLE IF EXISTS `Landfill`: 0 row(s) affected
+[52, 15:33:47] CREATE TABLE `Landfill` (
+  `landfill_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `L1_id` int(11) DEFAULT NULL,
+  `L2_id` int(11) DEFAULT NULL,
+  `L3_id` int(11) DEFAULT NULL,
+  `L4_id` int(11) DEFAULT NULL,
+  `L5_id` int(11) DEFAULT NULL,
+  PRIMARY KEY # ************************************************************
+# Sequel Pro SQL dump
+# Version 4541
+#
+# http://www.sequelpro.com/
+# https://github.com/sequelpro/sequelpro
+#
+# Host: 127.0.0.1 (MySQL 5.7.23)
+# Database: RecyclePedia
+# Generation Time: 2018-11-16 01:41:23 +0000
+# ************************************************************
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[52, 15:33:47] CREATE TABLE `Landfill` (
+  `landfill_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `L1_id` int(11) DEFAULT NULL,
+  `L2_id` int(11) DEFAULT NULL,
+  `L3_id` int(11) DEFAULT NULL,
+  `L4_id` int(11) DEFAULT NULL,
+  `L5_id` int(11) DEFAULT NULL,
+  PRIMARY KEY # ************************************************************
+# Sequel Pro SQL dump
+# Version 4541
+#
+# http://www.sequelpro.com/
+# https://github.com/sequelpro/sequelpro
+#
+# Host: 127.0.0.1 (MySQL 5.7.23)
+# Database: RecyclePedia
+# Generation Time: 2018-11-16 01:41:23 +0000
+# ************************************************************
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */' at line 21
+[53, 15:36:52] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: Running...
+[53, 15:36:52] /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */: 0 row(s) affected
+[54, 15:36:52] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: Running...
+[54, 15:36:52] /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */: 0 row(s) affected
+[55, 15:36:52] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: Running...
+[55, 15:36:52] /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */: 0 row(s) affected
+[56, 15:36:52] /*!40101 SET NAMES utf8 */: Running...
+[56, 15:36:52] /*!40101 SET NAMES utf8 */: 0 row(s) affected
+[57, 15:36:52] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: Running...
+[57, 15:36:52] /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */: 0 row(s) affected
+[58, 15:36:52] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: Running...
+[58, 15:36:52] /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */: 0 row(s) affected
+[59, 15:36:52] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: Running...
+[59, 15:36:52] /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */: 0 row(s) affected
+[60, 15:36:52] DROP TABLE IF EXISTS `Area`: Running...
+[60, 15:36:52] DROP TABLE IF EXISTS `Area`: 0 row(s) affected
+[61, 15:36:52] CREATE TABLE `Area` (
+  `zipcode` int(255) unsigned NOT NULL AUTO_INCREMENT,
+  `policy` int(11) DEFAULT NULL,
+  PRIMARY KEY (`zipcode`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[61, 15:36:52] CREATE TABLE `Area` (
+  `zipcode` int(255) unsigned NOT NULL AUTO_INCREMENT,
+  `policy` int(11) DEFAULT NULL,
+  PRIMARY KEY (`zipcode`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[62, 15:36:52] LOCK TABLES `Area` WRITE: Running...
+[62, 15:36:52] LOCK TABLES `Area` WRITE: 0 row(s) affected
+[63, 15:36:52] /*!40000 ALTER TABLE `Area` DISABLE KEYS */: Running...
+[63, 15:36:52] /*!40000 ALTER TABLE `Area` DISABLE KEYS */: 0 row(s) affected
+[64, 15:36:52] INSERT INTO `Area` (`zipcode`, `policy`)
+VALUES
+	(2108,2),
+	(2109,2),
+	(2110,2),
+	(2111,2),
+	(2112,2),
+	(2113,2),
+	(2114,2),
+	(2115,2),
+	(2116,2),
+	(2117,2),
+	(2118,2),
+	(2119,2),
+	(2120,2),
+	(2121,2),
+	(2122,2),
+	(2123,2),
+	(2124,2),
+	(2125,2),
+	(2126,2),
+	(2127,2),
+	(2128,2),
+	(2129,2),
+	(2130,2),
+	(2131,2),
+	(2132,2),
+	(2133,2),
+	(2134,2),
+	(2135,2),
+	(2136,2),
+	(2137,2),
+	(2163,2),
+	(2196,2),
+	(2199,2),
+	(2201,2),
+	(2203,2),
+	(2204,2),
+	(2205,2),
+	(2206,2),
+	(2210,2),
+	(2211,2),
+	(2212,2),
+	(2215,2),
+	(2217,2),
+	(2222,2),
+	(2241,2),
+	(2266,2),
+	(2283,2),
+	(2284,2),
+	(2293,2),
+	(2297,2),
+	(2298,2),
+	(44017,3),
+	(44022,3),
+	(44040,3),
+	(44070,3),
+	(44101,3),
+	(44102,3),
+	(44103,3),
+	(44104,3),
+	(44105,3),
+	(44106,3),
+	(44107,3),
+	(44108,3),
+	(44109,3),
+	(44110,3),
+	(44111,3),
+	(44112,3),
+	(44113,3),
+	(44114,3),
+	(44115,3),
+	(44116,3),
+	(44117,3),
+	(44118,3),
+	(44119,3),
+	(44120,3),
+	(44121,3),
+	(44122,3),
+	(44123,3),
+	(44124,3),
+	(44125,3),
+	(44126,3),
+	(44127,3),
+	(44128,3),
+	(44129,3),
+	(44130,3),
+	(44131,3),
+	(44132,3),
+	(44133,3),
+	(44134,3),
+	(44135,3),
+	(44136,3),
+	(44137,3),
+	(44138,3),
+	(44139,3),
+	(44140,3),
+	(44141,3),
+	(44142,3),
+	(44143,3),
+	(44144,3),
+	(44145,3),
+	(44146,3),
+	(44147,3),
+	(44149,3),
+	(44181,3),
+	(44188,3),
+	(44190,3),
+	(44191,3),
+	(44192,3),
+	(44193,3),
+	(44194,3),
+	(44195,3),
+	(44196,3),
+	(44197,3),
+	(44198,3),
+	(44199,3),
+	(45201,1),
+	(45202,1),
+	(45203,1),
+	(45204,1),
+	(45205,1),
+	(45206,1),
+	(45207,1),
+	(45208,1),
+	(45209,1),
+	(45211,1),
+	(45212,1),
+	(45213,1),
+	(45214,1),
+	(45215,1),
+	(45216,1),
+	(45217,1),
+	(45218,1),
+	(45219,1),
+	(45220,1),
+	(45221,1),
+	(45222,1),
+	(45223,1),
+	(45224,1),
+	(45225,1),
+	(45226,1),
+	(45227,1),
+	(45229,1),
+	(45230,1),
+	(45231,1),
+	(45232,1),
+	(45233,1),
+	(45234,1),
+	(45235,1),
+	(45236,1),
+	(45237,1),
+	(45238,1),
+	(45239,1),
+	(45240,1),
+	(45241,1),
+	(45242,1),
+	(45243,1),
+	(45244,1),
+	(45245,1),
+	(45246,1),
+	(45247,1),
+	(45248,1),
+	(45249,1),
+	(45250,1),
+	(45251,1),
+	(45252,1),
+	(45253,1),
+	(45254,1),
+	(45255,1),
+	(45258,1),
+	(45262,1),
+	(45263,1),
+	(45264,1),
+	(45267,1),
+	(45268,1),
+	(45269,1),
+	(45270,1),
+	(45271,1),
+	(45273,1),
+	(45274,1),
+	(45275,1),
+	(45277,1),
+	(45280,1),
+	(45296,1),
+	(45298,1),
+	(45299,1),
+	(45999,1): Running...
+[64, 15:36:52] INSERT INTO `Area` (`zipcode`, `policy`)
+VALUES
+	(2108,2),
+	(2109,2),
+	(2110,2),
+	(2111,2),
+	(2112,2),
+	(2113,2),
+	(2114,2),
+	(2115,2),
+	(2116,2),
+	(2117,2),
+	(2118,2),
+	(2119,2),
+	(2120,2),
+	(2121,2),
+	(2122,2),
+	(2123,2),
+	(2124,2),
+	(2125,2),
+	(2126,2),
+	(2127,2),
+	(2128,2),
+	(2129,2),
+	(2130,2),
+	(2131,2),
+	(2132,2),
+	(2133,2),
+	(2134,2),
+	(2135,2),
+	(2136,2),
+	(2137,2),
+	(2163,2),
+	(2196,2),
+	(2199,2),
+	(2201,2),
+	(2203,2),
+	(2204,2),
+	(2205,2),
+	(2206,2),
+	(2210,2),
+	(2211,2),
+	(2212,2),
+	(2215,2),
+	(2217,2),
+	(2222,2),
+	(2241,2),
+	(2266,2),
+	(2283,2),
+	(2284,2),
+	(2293,2),
+	(2297,2),
+	(2298,2),
+	(44017,3),
+	(44022,3),
+	(44040,3),
+	(44070,3),
+	(44101,3),
+	(44102,3),
+	(44103,3),
+	(44104,3),
+	(44105,3),
+	(44106,3),
+	(44107,3),
+	(44108,3),
+	(44109,3),
+	(44110,3),
+	(44111,3),
+	(44112,3),
+	(44113,3),
+	(44114,3),
+	(44115,3),
+	(44116,3),
+	(44117,3),
+	(44118,3),
+	(44119,3),
+	(44120,3),
+	(44121,3),
+	(44122,3),
+	(44123,3),
+	(44124,3),
+	(44125,3),
+	(44126,3),
+	(44127,3),
+	(44128,3),
+	(44129,3),
+	(44130,3),
+	(44131,3),
+	(44132,3),
+	(44133,3),
+	(44134,3),
+	(44135,3),
+	(44136,3),
+	(44137,3),
+	(44138,3),
+	(44139,3),
+	(44140,3),
+	(44141,3),
+	(44142,3),
+	(44143,3),
+	(44144,3),
+	(44145,3),
+	(44146,3),
+	(44147,3),
+	(44149,3),
+	(44181,3),
+	(44188,3),
+	(44190,3),
+	(44191,3),
+	(44192,3),
+	(44193,3),
+	(44194,3),
+	(44195,3),
+	(44196,3),
+	(44197,3),
+	(44198,3),
+	(44199,3),
+	(45201,1),
+	(45202,1),
+	(45203,1),
+	(45204,1),
+	(45205,1),
+	(45206,1),
+	(45207,1),
+	(45208,1),
+	(45209,1),
+	(45211,1),
+	(45212,1),
+	(45213,1),
+	(45214,1),
+	(45215,1),
+	(45216,1),
+	(45217,1),
+	(45218,1),
+	(45219,1),
+	(45220,1),
+	(45221,1),
+	(45222,1),
+	(45223,1),
+	(45224,1),
+	(45225,1),
+	(45226,1),
+	(45227,1),
+	(45229,1),
+	(45230,1),
+	(45231,1),
+	(45232,1),
+	(45233,1),
+	(45234,1),
+	(45235,1),
+	(45236,1),
+	(45237,1),
+	(45238,1),
+	(45239,1),
+	(45240,1),
+	(45241,1),
+	(45242,1),
+	(45243,1),
+	(45244,1),
+	(45245,1),
+	(45246,1),
+	(45247,1),
+	(45248,1),
+	(45249,1),
+	(45250,1),
+	(45251,1),
+	(45252,1),
+	(45253,1),
+	(45254,1),
+	(45255,1),
+	(45258,1),
+	(45262,1),
+	(45263,1),
+	(45264,1),
+	(45267,1),
+	(45268,1),
+	(45269,1),
+	(45270,1),
+	(45271,1),
+	(45273,1),
+	(45274,1),
+	(45275,1),
+	(45277,1),
+	(45280,1),
+	(45296,1),
+	(45298,1),
+	(45299,1),
+	(45999,1): 186 row(s) affected
+Records: 186  Duplicates: 0  Warnings: 0
+[65, 15:36:52] /*!40000 ALTER TABLE `Area` ENABLE KEYS */: Running...
+[65, 15:36:52] /*!40000 ALTER TABLE `Area` ENABLE KEYS */: 0 row(s) affected
+[66, 15:36:52] UNLOCK TABLES: Running...
+[66, 15:36:52] UNLOCK TABLES: 0 row(s) affected
+[67, 15:36:52] DROP TABLE IF EXISTS `Landfill`: Running...
+[67, 15:36:52] DROP TABLE IF EXISTS `Landfill`: 0 row(s) affected
+[68, 15:36:52] CREATE TABLE `Landfill` (
+  `landfill_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `L1_id` int(11) DEFAULT NULL,
+  `L2_id` int(11) DEFAULT NULL,
+  `L3_id` int(11) DEFAULT NULL,
+  `L4_id` int(11) DEFAULT NULL,
+  `L5_id` int(11) DEFAULT NULL,
+  `L6_id` int(11) DEFAULT NULL,
+  `L7_id` int(11) DEFAULT NULL,
+  `L8_id` int(11) DEFAULT NULL,
+  `L9_id` int(11) DEFAULT NULL,
+  `L10_id` int(11) DEFAULT NULL,
+  `L11_id` int(11) DEFAULT NULL,
+  `L12_id` int(11) DEFAULT NULL,
+  `L13_id` int(11) DEFAULT NULL,
+  `L14_id` int(11) DEFAULT NULL,
+  `L15_id` int(11) DEFAULT NULL,
+  `L16_id` int(11) DEFAULT NULL,
+  `L17_id` int(11) DEFAULT NULL,
+  `L18_id` int(11) DEFAULT NULL,
+  `L19_id` int(11) DEFAULT NULL,
+  `L20_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`landfill_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[68, 15:36:52] CREATE TABLE `Landfill` (
+  `landfill_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `L1_id` int(11) DEFAULT NULL,
+  `L2_id` int(11) DEFAULT NULL,
+  `L3_id` int(11) DEFAULT NULL,
+  `L4_id` int(11) DEFAULT NULL,
+  `L5_id` int(11) DEFAULT NULL,
+  `L6_id` int(11) DEFAULT NULL,
+  `L7_id` int(11) DEFAULT NULL,
+  `L8_id` int(11) DEFAULT NULL,
+  `L9_id` int(11) DEFAULT NULL,
+  `L10_id` int(11) DEFAULT NULL,
+  `L11_id` int(11) DEFAULT NULL,
+  `L12_id` int(11) DEFAULT NULL,
+  `L13_id` int(11) DEFAULT NULL,
+  `L14_id` int(11) DEFAULT NULL,
+  `L15_id` int(11) DEFAULT NULL,
+  `L16_id` int(11) DEFAULT NULL,
+  `L17_id` int(11) DEFAULT NULL,
+  `L18_id` int(11) DEFAULT NULL,
+  `L19_id` int(11) DEFAULT NULL,
+  `L20_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`landfill_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[69, 15:36:52] LOCK TABLES `Landfill` WRITE: Running...
+[69, 15:36:52] LOCK TABLES `Landfill` WRITE: 0 row(s) affected
+[70, 15:36:52] /*!40000 ALTER TABLE `Landfill` DISABLE KEYS */: Running...
+[70, 15:36:52] /*!40000 ALTER TABLE `Landfill` DISABLE KEYS */: 0 row(s) affected
+[71, 15:36:52] INSERT INTO `Landfill` (`landfill_id`, `L1_id`, `L2_id`, `L3_id`, `L4_id`, `L5_id`, `L6_id`, `L7_id`, `L8_id`, `L9_id`, `L10_id`, `L11_id`, `L12_id`, `L13_id`, `L14_id`, `L15_id`, `L16_id`, `L17_id`, `L18_id`, `L19_id`, `L20_id`)
+VALUES
+	(200,424,425,426,427,428,429,430,431,432,433,434,435,436,437,NULL,NULL,NULL,NULL,NULL,NULL),
+	(201,483,484,485,486,487,488,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL): Running...
+[71, 15:36:52] INSERT INTO `Landfill` (`landfill_id`, `L1_id`, `L2_id`, `L3_id`, `L4_id`, `L5_id`, `L6_id`, `L7_id`, `L8_id`, `L9_id`, `L10_id`, `L11_id`, `L12_id`, `L13_id`, `L14_id`, `L15_id`, `L16_id`, `L17_id`, `L18_id`, `L19_id`, `L20_id`)
+VALUES
+	(200,424,425,426,427,428,429,430,431,432,433,434,435,436,437,NULL,NULL,NULL,NULL,NULL,NULL),
+	(201,483,484,485,486,487,488,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL): 2 row(s) affected
+Records: 2  Duplicates: 0  Warnings: 0
+[72, 15:36:52] /*!40000 ALTER TABLE `Landfill` ENABLE KEYS */: Running...
+[72, 15:36:52] /*!40000 ALTER TABLE `Landfill` ENABLE KEYS */: 0 row(s) affected
+[73, 15:36:52] UNLOCK TABLES: Running...
+[73, 15:36:52] UNLOCK TABLES: 0 row(s) affected
+[74, 15:36:52] DROP TABLE IF EXISTS `Materials`: Running...
+[74, 15:36:52] DROP TABLE IF EXISTS `Materials`: 0 row(s) affected
+[75, 15:36:52] CREATE TABLE `Materials` (
+  `material_id` varchar(255) NOT NULL DEFAULT '',
+  `material_name` varchar(255) DEFAULT NULL,
+  `method_to_break_down` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`material_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[75, 15:36:52] CREATE TABLE `Materials` (
+  `material_id` varchar(255) NOT NULL DEFAULT '',
+  `material_name` varchar(255) DEFAULT NULL,
+  `method_to_break_down` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`material_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[76, 15:36:52] LOCK TABLES `Materials` WRITE: Running...
+[76, 15:36:52] LOCK TABLES `Materials` WRITE: 0 row(s) affected
+[77, 15:36:52] /*!40000 ALTER TABLE `Materials` DISABLE KEYS */: Running...
+[77, 15:36:52] /*!40000 ALTER TABLE `Materials` DISABLE KEYS */: 0 row(s) affected
+[78, 15:36:52] INSERT INTO `Materials` (`material_id`, `material_name`, `method_to_break_down`)
+VALUES
+	('400','Plastic Bottles and Jugs','Rinse, crush, and replace bottle cap.'),
+	('401','Glass Jars','Rinse and detach lid from bottle. Labels can be left on.'),
+	('402','Aluminum Beverage Cans','Rinse. Labels can be left on.'),
+	('403','Cartons','Rinse. Remove and dispose of caps and straws in the trash.'),
+	('404','Aerosol Cans','Remove lids and tips.'),
+	('405','Paperboard','Unfold.'),
+	('406','Cardboard','Break down into 3-by-3 sections '),
+	('407','Batteries','Recycling Centers'),
+	('408','Plastic Bags','Recycling Centers'),
+	('409','Aluminum pie plates and food containers','Recycling Centers'),
+	('411','Aluminum cat food cans','Recycling Centers'),
+	('412','Plastic tubs such as butter and yogurt containers, storage containers','Recycling Centers'),
+	('413','Berry containers (clam shells)','Recycling Centers'),
+	('414','Any plastic that is not in the shape of a bottle/jug','Recycling Centers'),
+	('415','Christmas lights','Recycling Centers'),
+	('416','Light bulbs','Recycling Centers'),
+	('417','Yard waste or food','Recycling Centers'),
+	('418','Electronics','Recycling Centers.'),
+	('419','Polystyrene foam','Recycling Centers'),
+	('420','Hazardous waste','Recycling Centers'),
+	('421','Window glass, mirrors, drinking glasses','Recycling Centers'),
+	('422','Bound books','Recycling Centers'),
+	('423','Picnic ware- plastic cups and silverware, plates, napkins, etc','Recycling Centers'),
+	('424','Food waste','Anaerobic Digestion,Commercial Composting, Backyard & Neighborhood Composting '),
+	('425','Concrete','Landfill'),
+	('426','Brick','Landfill'),
+	('427','Masonry','Landfill'),
+	('428','Stone','Landfill'),
+	('429','Glass','Landfill'),
+	('430','Asphalt','Landfill'),
+	('431','Dry wall','Landfill'),
+	('432','Plaster','Landfill'),
+	('433','Paneling Lumber','Landfill'),
+	('434','Plumbing fixtures','Landfill'),
+	('435','Insulation','Landfill'),
+	('436','Roofing materials','Landfill'),
+	('437','Wiring','Landfill'),
+	('438','Antifreeze','Recycling Center'),
+	('439','Motor oil and oil filters','Recycling Center'),
+	('440','Tires (never throw tires out with your regular trash)','Recycling Center'),
+	('441','Tire cleaners','Recycling Center'),
+	('442','Transmission fluid','Recycling Center'),
+	('443','Acids and sulfuric acid, aerosol cans','Recycling Center'),
+	('444','Ammonia cleaners, radiator cleaners, rug cleaners, and upholstery cleaners','Recycling Center'),
+	('445','Artist supplies and hobby supplies like rubber cement','Recycling Center'),
+	('446','Caulk, chemistry set chemicals, pool chemicals','Recycling Center'),
+	('447','Driveway sealer, creosote, furnace cement, and roof cement','Recycling Center'),
+	('448','Dry-cell batteries, fiberglass resins, and metal cleaners','Recycling Center'),
+	('449','Fire starters, flammable liquids, floor-care products, and furniture polish','Recycling Center'),
+	('450','Mercury bearing waste from fluorescent lamps, compact fluorescent light bulbs, thermostats, and mercury switches','Recycling Center'),
+	('451','Photography chemicals, pool chemicals, propane tanks, and rust preventatives','Recycling Center'),
+	('452','Sealant, solvent adhesives, solvent-based cleaners','Recycling Center'),
+	('453','Wax stripper and Wood preservatives','Recycling Center'),
+	('454','Brighteners','Recycling Center'),
+	('455','Chlorine bleach','Recycling Center'),
+	('456','Detergents','Recycling Center'),
+	('457','Drain cleaners','Recycling Center'),
+	('458','Lighter fluid','Recycling Center'),
+	('459','Moth balls and crystals','Recycling Center'),
+	('460','Oven cleaners','Recycling Center'),
+	('461','Rodent killers','Recycling Center'),
+	('462','Softeners','Recycling Center'),
+	('463','Spray starch','Recycling Center'),
+	('464','Whiteners','Recycling Center'),
+	('465','Cesspool cleaners','Recycling Center'),
+	('466','Fertilizers','Recycling Center'),
+	('467','Flammable liquids','Recycling Center'),
+	('468','Flea and tick powder','Recycling Center'),
+	('469','Fungicides','Recycling Center'),
+	('470','Herbicides','Recycling Center'),
+	('471','Insecticides','Recycling Center'),
+	('472','No-pest strips','Recycling Center'),
+	('473','Pesticides','Recycling Center'),
+	('474','Brake fluid','Recycling Center'),
+	('475','Car batteries','Recycling Center'),
+	('476','Carburetor cleaner','Recycling Center'),
+	('477','Degreasers','Recycling Center'),
+	('478','Engine solvents','Recycling Center'),
+	('479','Gasoline and kerosene','Recycling Center'),
+	('480','Scrap Metals','Recycling Center'),
+	('481','Clothing','Recycling Center'),
+	('482','Paper','Recycling Center'),
+	('483','Styrofoam and take-out containers','Throw in trash'),
+	('484','Hoses and ropes','Throw in trash'),
+	('485','Durable Plastic','Throw in trash'),
+	('486','Cups, lids and utensils','Throw in trash'),
+	('487','Broken Ceramics','Throw in trash'),
+	('488','Medication','Throw in trash'): Running...
+[78, 15:36:52] INSERT INTO `Materials` (`material_id`, `material_name`, `method_to_break_down`)
+VALUES
+	('400','Plastic Bottles and Jugs','Rinse, crush, and replace bottle cap.'),
+	('401','Glass Jars','Rinse and detach lid from bottle. Labels can be left on.'),
+	('402','Aluminum Beverage Cans','Rinse. Labels can be left on.'),
+	('403','Cartons','Rinse. Remove and dispose of caps and straws in the trash.'),
+	('404','Aerosol Cans','Remove lids and tips.'),
+	('405','Paperboard','Unfold.'),
+	('406','Cardboard','Break down into 3-by-3 sections '),
+	('407','Batteries','Recycling Centers'),
+	('408','Plastic Bags','Recycling Centers'),
+	('409','Aluminum pie plates and food containers','Recycling Centers'),
+	('411','Aluminum cat food cans','Recycling Centers'),
+	('412','Plastic tubs such as butter and yogurt containers, storage containers','Recycling Centers'),
+	('413','Berry containers (clam shells)','Recycling Centers'),
+	('414','Any plastic that is not in the shape of a bottle/jug','Recycling Centers'),
+	('415','Christmas lights','Recycling Centers'),
+	('416','Light bulbs','Recycling Centers'),
+	('417','Yard waste or food','Recycling Centers'),
+	('418','Electronics','Recycling Centers.'),
+	('419','Polystyrene foam','Recycling Centers'),
+	('420','Hazardous waste','Recycling Centers'),
+	('421','Window glass, mirrors, drinking glasses','Recycling Centers'),
+	('422','Bound books','Recycling Centers'),
+	('423','Picnic ware- plastic cups and silverware, plates, napkins, etc','Recycling Centers'),
+	('424','Food waste','Anaerobic Digestion,Commercial Composting, Backyard & Neighborhood Composting '),
+	('425','Concrete','Landfill'),
+	('426','Brick','Landfill'),
+	('427','Masonry','Landfill'),
+	('428','Stone','Landfill'),
+	('429','Glass','Landfill'),
+	('430','Asphalt','Landfill'),
+	('431','Dry wall','Landfill'),
+	('432','Plaster','Landfill'),
+	('433','Paneling Lumber','Landfill'),
+	('434','Plumbing fixtures','Landfill'),
+	('435','Insulation','Landfill'),
+	('436','Roofing materials','Landfill'),
+	('437','Wiring','Landfill'),
+	('438','Antifreeze','Recycling Center'),
+	('439','Motor oil and oil filters','Recycling Center'),
+	('440','Tires (never throw tires out with your regular trash)','Recycling Center'),
+	('441','Tire cleaners','Recycling Center'),
+	('442','Transmission fluid','Recycling Center'),
+	('443','Acids and sulfuric acid, aerosol cans','Recycling Center'),
+	('444','Ammonia cleaners, radiator cleaners, rug cleaners, and upholstery cleaners','Recycling Center'),
+	('445','Artist supplies and hobby supplies like rubber cement','Recycling Center'),
+	('446','Caulk, chemistry set chemicals, pool chemicals','Recycling Center'),
+	('447','Driveway sealer, creosote, furnace cement, and roof cement','Recycling Center'),
+	('448','Dry-cell batteries, fiberglass resins, and metal cleaners','Recycling Center'),
+	('449','Fire starters, flammable liquids, floor-care products, and furniture polish','Recycling Center'),
+	('450','Mercury bearing waste from fluorescent lamps, compact fluorescent light bulbs, thermostats, and mercury switches','Recycling Center'),
+	('451','Photography chemicals, pool chemicals, propane tanks, and rust preventatives','Recycling Center'),
+	('452','Sealant, solvent adhesives, solvent-based cleaners','Recycling Center'),
+	('453','Wax stripper and Wood preservatives','Recycling Center'),
+	('454','Brighteners','Recycling Center'),
+	('455','Chlorine bleach','Recycling Center'),
+	('456','Detergents','Recycling Center'),
+	('457','Drain cleaners','Recycling Center'),
+	('458','Lighter fluid','Recycling Center'),
+	('459','Moth balls and crystals','Recycling Center'),
+	('460','Oven cleaners','Recycling Center'),
+	('461','Rodent killers','Recycling Center'),
+	('462','Softeners','Recycling Center'),
+	('463','Spray starch','Recycling Center'),
+	('464','Whiteners','Recycling Center'),
+	('465','Cesspool cleaners','Recycling Center'),
+	('466','Fertilizers','Recycling Center'),
+	('467','Flammable liquids','Recycling Center'),
+	('468','Flea and tick powder','Recycling Center'),
+	('469','Fungicides','Recycling Center'),
+	('470','Herbicides','Recycling Center'),
+	('471','Insecticides','Recycling Center'),
+	('472','No-pest strips','Recycling Center'),
+	('473','Pesticides','Recycling Center'),
+	('474','Brake fluid','Recycling Center'),
+	('475','Car batteries','Recycling Center'),
+	('476','Carburetor cleaner','Recycling Center'),
+	('477','Degreasers','Recycling Center'),
+	('478','Engine solvents','Recycling Center'),
+	('479','Gasoline and kerosene','Recycling Center'),
+	('480','Scrap Metals','Recycling Center'),
+	('481','Clothing','Recycling Center'),
+	('482','Paper','Recycling Center'),
+	('483','Styrofoam and take-out containers','Throw in trash'),
+	('484','Hoses and ropes','Throw in trash'),
+	('485','Durable Plastic','Throw in trash'),
+	('486','Cups, lids and utensils','Throw in trash'),
+	('487','Broken Ceramics','Throw in trash'),
+	('488','Medication','Throw in trash'): 88 row(s) affected
+Records: 88  Duplicates: 0  Warnings: 0
+[79, 15:36:52] /*!40000 ALTER TABLE `Materials` ENABLE KEYS */: Running...
+[79, 15:36:52] /*!40000 ALTER TABLE `Materials` ENABLE KEYS */: 0 row(s) affected
+[80, 15:36:52] UNLOCK TABLES: Running...
+[80, 15:36:52] UNLOCK TABLES: 0 row(s) affected
+[81, 15:36:52] DROP TABLE IF EXISTS `Policy`: Running...
+[81, 15:36:52] DROP TABLE IF EXISTS `Policy`: 0 row(s) affected
+[82, 15:36:52] CREATE TABLE `Policy` (
+  `policy` int(255) unsigned NOT NULL AUTO_INCREMENT,
+  `recycle_id` varchar(255) DEFAULT NULL,
+  `landfill_id` varchar(255) DEFAULT NULL,
+  `waste_center_id` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`policy`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[82, 15:36:52] CREATE TABLE `Policy` (
+  `policy` int(255) unsigned NOT NULL AUTO_INCREMENT,
+  `recycle_id` varchar(255) DEFAULT NULL,
+  `landfill_id` varchar(255) DEFAULT NULL,
+  `waste_center_id` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`policy`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[83, 15:36:52] LOCK TABLES `Policy` WRITE: Running...
+[83, 15:36:52] LOCK TABLES `Policy` WRITE: 0 row(s) affected
+[84, 15:36:52] /*!40000 ALTER TABLE `Policy` DISABLE KEYS */: Running...
+[84, 15:36:52] /*!40000 ALTER TABLE `Policy` DISABLE KEYS */: 0 row(s) affected
+[85, 15:36:52] INSERT INTO `Policy` (`policy`, `recycle_id`, `landfill_id`, `waste_center_id`)
+VALUES
+	(1,'100','200','300'),
+	(2,'101','201','301'),
+	(3,'102','201','302'): Running...
+[85, 15:36:52] INSERT INTO `Policy` (`policy`, `recycle_id`, `landfill_id`, `waste_center_id`)
+VALUES
+	(1,'100','200','300'),
+	(2,'101','201','301'),
+	(3,'102','201','302'): 3 row(s) affected
+Records: 3  Duplicates: 0  Warnings: 0
+[86, 15:36:52] /*!40000 ALTER TABLE `Policy` ENABLE KEYS */: Running...
+[86, 15:36:52] /*!40000 ALTER TABLE `Policy` ENABLE KEYS */: 0 row(s) affected
+[87, 15:36:52] UNLOCK TABLES: Running...
+[87, 15:36:52] UNLOCK TABLES: 0 row(s) affected
+[88, 15:36:53] DROP TABLE IF EXISTS `Recyclables`: Running...
+[88, 15:36:53] DROP TABLE IF EXISTS `Recyclables`: 0 row(s) affected
+[89, 15:36:53] CREATE TABLE `Recyclables` (
+  `recycle_id` varchar(255) NOT NULL DEFAULT '',
+  `R1_id` int(11) DEFAULT NULL,
+  `R2_id` int(11) DEFAULT NULL,
+  `R3_id` int(11) DEFAULT NULL,
+  `R4_id` int(11) DEFAULT NULL,
+  `R5_id` int(11) DEFAULT NULL,
+  `R6_id` int(11) DEFAULT NULL,
+  `R7_id` int(11) DEFAULT NULL,
+  `R8_id` int(11) DEFAULT NULL,
+  `R9_id` int(11) DEFAULT NULL,
+  `R10_id` int(11) DEFAULT NULL,
+  `R11_id` int(11) DEFAULT NULL,
+  `R12_id` int(11) DEFAULT NULL,
+  `R13_id` int(11) DEFAULT NULL,
+  `R14_id` int(11) DEFAULT NULL,
+  `R15_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`recycle_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[89, 15:36:53] CREATE TABLE `Recyclables` (
+  `recycle_id` varchar(255) NOT NULL DEFAULT '',
+  `R1_id` int(11) DEFAULT NULL,
+  `R2_id` int(11) DEFAULT NULL,
+  `R3_id` int(11) DEFAULT NULL,
+  `R4_id` int(11) DEFAULT NULL,
+  `R5_id` int(11) DEFAULT NULL,
+  `R6_id` int(11) DEFAULT NULL,
+  `R7_id` int(11) DEFAULT NULL,
+  `R8_id` int(11) DEFAULT NULL,
+  `R9_id` int(11) DEFAULT NULL,
+  `R10_id` int(11) DEFAULT NULL,
+  `R11_id` int(11) DEFAULT NULL,
+  `R12_id` int(11) DEFAULT NULL,
+  `R13_id` int(11) DEFAULT NULL,
+  `R14_id` int(11) DEFAULT NULL,
+  `R15_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`recycle_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[90, 15:36:53] LOCK TABLES `Recyclables` WRITE: Running...
+[90, 15:36:53] LOCK TABLES `Recyclables` WRITE: 0 row(s) affected
+[91, 15:36:53] /*!40000 ALTER TABLE `Recyclables` DISABLE KEYS */: Running...
+[91, 15:36:53] /*!40000 ALTER TABLE `Recyclables` DISABLE KEYS */: 0 row(s) affected
+[92, 15:36:53] INSERT INTO `Recyclables` (`recycle_id`, `R1_id`, `R2_id`, `R3_id`, `R4_id`, `R5_id`, `R6_id`, `R7_id`, `R8_id`, `R9_id`, `R10_id`, `R11_id`, `R12_id`, `R13_id`, `R14_id`, `R15_id`)
+VALUES
+	('100',400,401,402,403,404,405,406,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+	('101',400,401,402,405,406,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+	('102',400,401,402,403,405,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL): Running...
+[92, 15:36:53] INSERT INTO `Recyclables` (`recycle_id`, `R1_id`, `R2_id`, `R3_id`, `R4_id`, `R5_id`, `R6_id`, `R7_id`, `R8_id`, `R9_id`, `R10_id`, `R11_id`, `R12_id`, `R13_id`, `R14_id`, `R15_id`)
+VALUES
+	('100',400,401,402,403,404,405,406,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+	('101',400,401,402,405,406,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+	('102',400,401,402,403,405,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL): 3 row(s) affected
+Records: 3  Duplicates: 0  Warnings: 0
+[93, 15:36:53] /*!40000 ALTER TABLE `Recyclables` ENABLE KEYS */: Running...
+[93, 15:36:53] /*!40000 ALTER TABLE `Recyclables` ENABLE KEYS */: 0 row(s) affected
+[94, 15:36:53] UNLOCK TABLES: Running...
+[94, 15:36:53] UNLOCK TABLES: 0 row(s) affected
+[95, 15:36:53] DROP TABLE IF EXISTS `test_results`: Running...
+[95, 15:36:53] DROP TABLE IF EXISTS `test_results`: 0 row(s) affected
+[96, 15:36:53] CREATE TABLE `test_results` (
+  `testName` varchar(255) DEFAULT NULL,
+  `testResult` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[96, 15:36:53] CREATE TABLE `test_results` (
+  `testName` varchar(255) DEFAULT NULL,
+  `testResult` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[97, 15:36:53] LOCK TABLES `test_results` WRITE: Running...
+[97, 15:36:53] LOCK TABLES `test_results` WRITE: 0 row(s) affected
+[98, 15:36:53] /*!40000 ALTER TABLE `test_results` DISABLE KEYS */: Running...
+[98, 15:36:53] /*!40000 ALTER TABLE `test_results` DISABLE KEYS */: 0 row(s) affected
+[99, 15:36:53] INSERT INTO `test_results` (`testName`, `testResult`)
+VALUES
+	('Find number of zipcodes','pass'),
+	('Find policy for specific zipcode','pass'),
+	('Return correct number of materials in database','pass'),
+	('Return correct recyclables for zipcode 45203','pass'),
+	('Return correct landfill items for zipcode 45203','pass'),
+	('Returns correct waste center items for zipcode 45203','pass'): Running...
+[99, 15:36:53] INSERT INTO `test_results` (`testName`, `testResult`)
+VALUES
+	('Find number of zipcodes','pass'),
+	('Find policy for specific zipcode','pass'),
+	('Return correct number of materials in database','pass'),
+	('Return correct recyclables for zipcode 45203','pass'),
+	('Return correct landfill items for zipcode 45203','pass'),
+	('Returns correct waste center items for zipcode 45203','pass'): 6 row(s) affected
+Records: 6  Duplicates: 0  Warnings: 0
+[100, 15:36:53] /*!40000 ALTER TABLE `test_results` ENABLE KEYS */: Running...
+[100, 15:36:53] /*!40000 ALTER TABLE `test_results` ENABLE KEYS */: 0 row(s) affected
+[101, 15:36:53] UNLOCK TABLES: Running...
+[101, 15:36:53] UNLOCK TABLES: 0 row(s) affected
+[102, 15:36:53] DROP TABLE IF EXISTS `Waste_Center`: Running...
+[102, 15:36:53] DROP TABLE IF EXISTS `Waste_Center`: 0 row(s) affected
+[103, 15:36:53] CREATE TABLE `Waste_Center` (
+  `waste_center_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `WC1_id` int(11) DEFAULT NULL,
+  `WC2_id` int(11) DEFAULT NULL,
+  `WC3_id` int(11) DEFAULT NULL,
+  `WC4_id` int(11) DEFAULT NULL,
+  `WC5_id` int(11) DEFAULT NULL,
+  `WC6_id` int(11) DEFAULT NULL,
+  `WC7_id` int(11) DEFAULT NULL,
+  `WC8_id` int(11) DEFAULT NULL,
+  `WC9_id` int(11) DEFAULT NULL,
+  `WC10_id` int(11) DEFAULT NULL,
+  `WC11_id` int(11) DEFAULT NULL,
+  `WC12_id` int(11) DEFAULT NULL,
+  `WC13_id` int(11) DEFAULT NULL,
+  `WC14_id` int(11) DEFAULT NULL,
+  `WC15_id` int(11) DEFAULT NULL,
+  `WC16_id` int(11) DEFAULT NULL,
+  `WC17_id` int(11) DEFAULT NULL,
+  `WC18_id` int(11) DEFAULT NULL,
+  `WC19_id` int(11) DEFAULT NULL,
+  `WC20_id` int(11) DEFAULT NULL,
+  `WC21_id` int(11) DEFAULT NULL,
+  `WC22_id` int(11) DEFAULT NULL,
+  `WC23_id` int(11) DEFAULT NULL,
+  `WC24_id` int(11) DEFAULT NULL,
+  `WC25_id` int(11) DEFAULT NULL,
+  `WC26_id` int(11) DEFAULT NULL,
+  `WC27_id` int(11) DEFAULT NULL,
+  `WC28_id` int(11) DEFAULT NULL,
+  `WC29_id` int(11) DEFAULT NULL,
+  `WC30_id` int(11) DEFAULT NULL,
+  `WC31_id` int(11) DEFAULT NULL,
+  `WC32_id` int(11) DEFAULT NULL,
+  `WC33_id` int(11) DEFAULT NULL,
+  `WC34_id` int(11) DEFAULT NULL,
+  `WC35_id` int(11) DEFAULT NULL,
+  `WC36_id` int(11) DEFAULT NULL,
+  `WC37_id` int(11) DEFAULT NULL,
+  `WC38_id` int(11) DEFAULT NULL,
+  `WC39_id` int(11) DEFAULT NULL,
+  `WC40_id` int(11) DEFAULT NULL,
+  `WC41_id` int(11) DEFAULT NULL,
+  `WC42_id` int(11) DEFAULT NULL,
+  `WC43_id` int(11) DEFAULT NULL,
+  `WC44_id` int(11) DEFAULT NULL,
+  `WC45_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`waste_center_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: Running...
+[103, 15:36:53] CREATE TABLE `Waste_Center` (
+  `waste_center_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `WC1_id` int(11) DEFAULT NULL,
+  `WC2_id` int(11) DEFAULT NULL,
+  `WC3_id` int(11) DEFAULT NULL,
+  `WC4_id` int(11) DEFAULT NULL,
+  `WC5_id` int(11) DEFAULT NULL,
+  `WC6_id` int(11) DEFAULT NULL,
+  `WC7_id` int(11) DEFAULT NULL,
+  `WC8_id` int(11) DEFAULT NULL,
+  `WC9_id` int(11) DEFAULT NULL,
+  `WC10_id` int(11) DEFAULT NULL,
+  `WC11_id` int(11) DEFAULT NULL,
+  `WC12_id` int(11) DEFAULT NULL,
+  `WC13_id` int(11) DEFAULT NULL,
+  `WC14_id` int(11) DEFAULT NULL,
+  `WC15_id` int(11) DEFAULT NULL,
+  `WC16_id` int(11) DEFAULT NULL,
+  `WC17_id` int(11) DEFAULT NULL,
+  `WC18_id` int(11) DEFAULT NULL,
+  `WC19_id` int(11) DEFAULT NULL,
+  `WC20_id` int(11) DEFAULT NULL,
+  `WC21_id` int(11) DEFAULT NULL,
+  `WC22_id` int(11) DEFAULT NULL,
+  `WC23_id` int(11) DEFAULT NULL,
+  `WC24_id` int(11) DEFAULT NULL,
+  `WC25_id` int(11) DEFAULT NULL,
+  `WC26_id` int(11) DEFAULT NULL,
+  `WC27_id` int(11) DEFAULT NULL,
+  `WC28_id` int(11) DEFAULT NULL,
+  `WC29_id` int(11) DEFAULT NULL,
+  `WC30_id` int(11) DEFAULT NULL,
+  `WC31_id` int(11) DEFAULT NULL,
+  `WC32_id` int(11) DEFAULT NULL,
+  `WC33_id` int(11) DEFAULT NULL,
+  `WC34_id` int(11) DEFAULT NULL,
+  `WC35_id` int(11) DEFAULT NULL,
+  `WC36_id` int(11) DEFAULT NULL,
+  `WC37_id` int(11) DEFAULT NULL,
+  `WC38_id` int(11) DEFAULT NULL,
+  `WC39_id` int(11) DEFAULT NULL,
+  `WC40_id` int(11) DEFAULT NULL,
+  `WC41_id` int(11) DEFAULT NULL,
+  `WC42_id` int(11) DEFAULT NULL,
+  `WC43_id` int(11) DEFAULT NULL,
+  `WC44_id` int(11) DEFAULT NULL,
+  `WC45_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`waste_center_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8: 0 row(s) affected
+[104, 15:36:53] LOCK TABLES `Waste_Center` WRITE: Running...
+[104, 15:36:53] LOCK TABLES `Waste_Center` WRITE: 0 row(s) affected
+[105, 15:36:53] /*!40000 ALTER TABLE `Waste_Center` DISABLE KEYS */: Running...
+[105, 15:36:53] /*!40000 ALTER TABLE `Waste_Center` DISABLE KEYS */: 0 row(s) affected
+[106, 15:36:53] INSERT INTO `Waste_Center` (`waste_center_id`, `WC1_id`, `WC2_id`, `WC3_id`, `WC4_id`, `WC5_id`, `WC6_id`, `WC7_id`, `WC8_id`, `WC9_id`, `WC10_id`, `WC11_id`, `WC12_id`, `WC13_id`, `WC14_id`, `WC15_id`, `WC16_id`, `WC17_id`, `WC18_id`, `WC19_id`, `WC20_id`, `WC21_id`, `WC22_id`, `WC23_id`, `WC24_id`, `WC25_id`, `WC26_id`, `WC27_id`, `WC28_id`, `WC29_id`, `WC30_id`, `WC31_id`, `WC32_id`, `WC33_id`, `WC34_id`, `WC35_id`, `WC36_id`, `WC37_id`, `WC38_id`, `WC39_id`, `WC40_id`, `WC41_id`, `WC42_id`, `WC43_id`, `WC44_id`, `WC45_id`)
+VALUES
+	(300,407,408,409,411,412,413,414,415,416,417,418,419,420,421,422,423,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+	(301,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,481,482,NULL),
+	(302,408,418,481,482,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL): Running...
+[106, 15:36:53] INSERT INTO `Waste_Center` (`waste_center_id`, `WC1_id`, `WC2_id`, `WC3_id`, `WC4_id`, `WC5_id`, `WC6_id`, `WC7_id`, `WC8_id`, `WC9_id`, `WC10_id`, `WC11_id`, `WC12_id`, `WC13_id`, `WC14_id`, `WC15_id`, `WC16_id`, `WC17_id`, `WC18_id`, `WC19_id`, `WC20_id`, `WC21_id`, `WC22_id`, `WC23_id`, `WC24_id`, `WC25_id`, `WC26_id`, `WC27_id`, `WC28_id`, `WC29_id`, `WC30_id`, `WC31_id`, `WC32_id`, `WC33_id`, `WC34_id`, `WC35_id`, `WC36_id`, `WC37_id`, `WC38_id`, `WC39_id`, `WC40_id`, `WC41_id`, `WC42_id`, `WC43_id`, `WC44_id`, `WC45_id`)
+VALUES
+	(300,407,408,409,411,412,413,414,415,416,417,418,419,420,421,422,423,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+	(301,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,481,482,NULL),
+	(302,408,418,481,482,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL): 3 row(s) affected
+Records: 3  Duplicates: 0  Warnings: 0
+[107, 15:36:53] /*!40000 ALTER TABLE `Waste_Center` ENABLE KEYS */: Running...
+[107, 15:36:53] /*!40000 ALTER TABLE `Waste_Center` ENABLE KEYS */: 0 row(s) affected
+[108, 15:36:53] UNLOCK TABLES: Running...
+[108, 15:36:53] UNLOCK TABLES: 0 row(s) affected
+[109, 15:36:53] /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */: Running...
+[109, 15:36:53] /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */: 0 row(s) affected
+[110, 15:36:53] /*!40101 SET SQL_MODE=@OLD_SQL_MODE */: Running...
+[110, 15:36:53] /*!40101 SET SQL_MODE=@OLD_SQL_MODE */: 0 row(s) affected
+[111, 15:36:53] /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */: Running...
+[111, 15:36:53] /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */: 0 row(s) affected
+[112, 15:36:53] /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */: Running...
+[112, 15:36:53] /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */: 0 row(s) affected
+[113, 15:36:53] /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */: Running...
+[113, 15:36:53] /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */: 0 row(s) affected
+[114, 15:36:53] /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */: Running...
+[114, 15:36:53] /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */: 0 row(s) affected
+[1, 12:34:08] Could not connect, server may not be running.: Can't connect to MySQL server on 'localhost' (10061)
+[1, 12:37:09] Could not connect, server may not be running.: Can't connect to MySQL server on 'localhost' (10061)

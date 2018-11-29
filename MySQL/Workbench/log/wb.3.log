@@ -1,0 +1,72 @@
+20:47:26 [ERR][      Workbench]: Console redirection failed.
+20:47:26 [INF][      Workbench]: Starting up Workbench
+20:47:26 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0 CE\MySQLWorkbench.exe" 
+	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\WINDOWS\system32
+	TickCount: 287493312
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 41238528
+20:47:26 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = DESKTOP-8Q5KAJT
+	USERPROFILE = C:\Users\Michael
+	HOMEPATH = \Users\Michael
+	LOCALAPPDATA = C:\Users\Michael\AppData\Local
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+	PROCESSOR_ARCHITECTURE = AMD64
+	Path = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Brackets\command;C:\Users\Michael\AppData\Local\Microsoft\WindowsApps;C:\Users\Michael\AppData\Local\GitHubDesktop\bin;C:\Users\Michael\AppData\Roaming\npm
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	PROCESSOR_LEVEL = 6
+	LOGONSERVER = \\DESKTOP-8Q5KAJT
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	HOMEDRIVE = C:
+	SystemRoot = C:\WINDOWS
+	SESSIONNAME = Console
+	ALLUSERSPROFILE = C:\ProgramData
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+	APPDATA = C:\Users\Michael\AppData\Roaming
+	PROCESSOR_REVISION = 8e0a
+	USERNAME = Michael
+	CommonProgramW6432 = C:\Program Files\Common Files
+	TEMP = C:\Users\Michael\AppData\Local\Temp
+	OneDrive = C:\Users\Michael\OneDrive
+	CommonProgramFiles = C:\Program Files\Common Files
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = DESKTOP-8Q5KAJT
+	PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+	ComSpec = C:\WINDOWS\system32\cmd.exe
+	SystemDrive = C:
+	FPS_BROWSER_USER_PROFILE_STRING = Default
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 8
+	TMP = C:\Users\Michael\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\WINDOWS
+	USERDOMAIN = DESKTOP-8Q5KAJT
+	PUBLIC = C:\Users\Public
+20:47:26 [INF][      Workbench]: Current version given by meta info is: 8.0.13
+20:47:26 [INF][      Workbench]: Setting PATH to: C:\WINDOWS\system32;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Brackets\command;C:\Users\Michael\AppData\Local\Microsoft\WindowsApps;C:\Users\Michael\AppData\Local\GitHubDesktop\bin;C:\Users\Michael\AppData\Roaming\npm
+20:47:26 [INF][ mforms managed]: Initializing mforms wrapper
+20:47:27 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	struct path: 
+	module path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE/modules
+	library path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	user data dir: C:\Users\Michael\AppData\Roaming\MySQL\Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+20:47:27 [INF][      WBContext]: WbContext::init
+20:47:33 [INF][            WBA]: Looking for extension modules for WBA...
+20:47:33 [INF][            WBA]: 0 extension modules found
