@@ -392,7 +392,7 @@ function getLocation() {
 }
 function showPosition(position) {
     x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude:" + position.coords.longitude + "<br>Zipcode: 44106";
-    
+     
 }
 function showError(error) {
     switch(error.code) {
